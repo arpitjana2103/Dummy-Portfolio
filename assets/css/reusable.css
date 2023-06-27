@@ -8,3 +8,36 @@
 .grid {
     display: grid;
 }
+
+.section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section__title {
+    font-size: var(--fs-h2);
+    line-height: 1.17rem;
+    font-weight: var(--medium);
+    margin-bottom: 2.5rem;
+}
+
+.text-lg {
+    font-size: var(--fs-lg);
+    line-height: 1.67rem;
+}
+
+.text-sm {
+    font-size: var(--fs-sm);
+    line-height: 1.43em;
+}
+
+.button {
+    background-color: var(--primary-color);
+    display: inline-block;
+    color: white;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    transition: 0.3s;
+}
+
