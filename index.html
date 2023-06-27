@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- CSS -->
+        <!-- ================ CSS ================ -->
         <link rel="stylesheet" href="./assets/css/style.css" />
-        <!-- Remixi Icon -->
+        <!-- ============ Remixi Icon ============ -->
         <link
             href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
             rel="stylesheet"
@@ -14,7 +14,44 @@
     </head>
 
     <body>
+        <!-- ==================== Header ====================== -->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#home" class="nav__link active-link">_Hello</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="nav__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#resume" class="nav__link">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="nav__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="nav__link">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-fill"></i>
+                </div>
+            </nav>
+        </header>
+        <!-- ==================== Main ====================== -->
         <main class="main">
+            <!-- ==================== Home ====================== -->
             <section class="home" id="home">
                 <div class="home__container container grid">
                     <img
