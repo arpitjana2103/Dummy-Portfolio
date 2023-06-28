@@ -1,3 +1,6 @@
+.hello {
+    opacity: 0.95;
+}
 .hello__details {
     margin-bottom: 1.3rem;
     text-align: justify;
