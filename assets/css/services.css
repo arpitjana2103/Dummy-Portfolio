@@ -9,7 +9,7 @@
 .services__item {
     padding: 2rem 1.5rem 1.5rem 1.5rem;
     /* text-align: center; */
-    box-shadow: #0d243023 0px 2px 8px 0px;
+    box-shadow: #0d24301e 0px 2px 8px 0px;
     border-radius: 0.5rem;
     cursor: pointer;
 }
@@ -19,11 +19,11 @@
 }
 
 .icon__box {
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--primary-color);
+    border-style: dashed;
     width: 82px;
     height: 82px;
     border-radius: 50%;
-    /* margin: 0 auto; */
     margin-bottom: 1.25rem;
     position: relative;
     display: flex;
@@ -33,7 +33,6 @@
     width: 40px;
     margin: auto;
 }
-
 
 
 .services__dot {
@@ -71,6 +70,6 @@
     border-radius: 50%;
     position: absolute;
     top: 0;
-    left: 0.9rem;
+    left: 12px;
 }
 

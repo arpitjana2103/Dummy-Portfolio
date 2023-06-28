@@ -21,7 +21,7 @@
     --text-color-alt: red;
     --bg-color: #fff;
     --bg-color-alt: #e9ecef;
-    --border-color: #f1f1f1;
+    --border-color: #cfcece;
 
     /*========Fonts and Typography==========*/
     --roboto-font: 'Roboto', sans-serif;
@@ -43,12 +43,12 @@
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #fff;
+    background: rgba(39, 39, 39, 0.082);
 }
 
 /* Handle */
