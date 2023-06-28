@@ -1,5 +1,13 @@
 .hello__details {
-    margin-bottom: 1.67rem;
+    margin-bottom: 1.3rem;
     text-align: justify;
+    color: var(--primary-color);
+}
+
+#resume_btn {
+    background-color: white;
+    color: var(--primary-color);
+    font-weight: var(--semibold);
+    border: 2px solid var(--primary-color);
 }
 

@@ -18,17 +18,18 @@
     font-size: var(--fs-h2);
     line-height: 1.17rem;
     font-weight: var(--medium);
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.8rem;
+    color: var(--primary-color);
 }
 
 .text-lg {
-    font-size: var(--fs-lg);
-    line-height: 1.67rem;
+    font-size: var(--fs-base);
+    line-height: 1.43rem;
 }
 
 .text-sm {
     font-size: var(--fs-sm);
-    line-height: 1.43em;
+    line-height: 1.2em;
 }
 
 .button {
@@ -36,8 +37,9 @@
     display: inline-block;
     color: white;
     letter-spacing: 0.1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.45rem 1rem;
     border-radius: 0.2rem;
     transition: 0.3s;
+    border: 2px solid var(--primary-color);
 }
 

@@ -25,16 +25,17 @@
 
 .nav__link {
     color: #fff;
-    font-size: 0.9rem;
+    font-size: var(--fs-sm);
     font-weight: var(--bold);
     font-family: var(--mono-font);
     text-transform: uppercase;
     transition: 0.3s;
     position: relative;
+    letter-spacing: 0.06rem;
 }
 
 .nav__link:hover {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .nav__link::after {
@@ -54,7 +55,7 @@
 }
 
 .active-link{
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .active-link::after{
