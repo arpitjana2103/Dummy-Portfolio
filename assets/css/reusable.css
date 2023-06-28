@@ -36,8 +36,8 @@
     background-color: var(--primary-color);
     display: inline-block;
     color: white;
-    letter-spacing: 0.1rem;
-    padding: 0.45rem 1rem;
+    letter-spacing: 0.05rem;
+    padding: 0.45rem 0.6rem;
     border-radius: 0.2rem;
     transition: 0.3s;
     border: 2px solid var(--primary-color);
