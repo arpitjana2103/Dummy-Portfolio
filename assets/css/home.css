@@ -29,8 +29,8 @@
 }
 
 .home__img {
-    width: 85%;
-    height: 350px;
+    width: 80%;
+    height: 360px;
     object-fit: cover;
     border-radius: 0.3rem;
     transform: translateY(3rem);

@@ -1,25 +1,25 @@
 .services__container {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.875rem;
-    opacity: 0.95;
     color: var(--primary-color);
     padding-top: 1rem;
 }
 
 .services__item {
     padding: 2rem 1.5rem 1.5rem 1.5rem;
-    /* text-align: center; */
     box-shadow: #0d24301e 0px 2px 8px 0px;
     border-radius: 0.5rem;
     cursor: pointer;
+    background-color: #f5f6f7;
 }
 
 .services__title {
     margin-bottom: 0.8em;
+    color: var(--primary-color);
 }
 
 .icon__box {
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     border-style: dashed;
     width: 82px;
     height: 82px;
@@ -34,7 +34,6 @@
     margin: auto;
 }
 
-
 .services__dot {
     position: absolute;
     left: 0;
@@ -45,8 +44,8 @@
     animation-play-state: paused;
 }
 .services__detail {
-    font-size: var(--fs-base);
-    opacity: 0.65;
+    font-size: 0.95rem;
+    opacity: 0.8;
 }
 
 .services__item:hover .services__dot {
@@ -70,6 +69,5 @@
     border-radius: 50%;
     position: absolute;
     top: 0;
-    left: 12px;
+    left: 10px;
 }
-
