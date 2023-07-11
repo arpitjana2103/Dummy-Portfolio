@@ -32,7 +32,7 @@
     width: 80%;
     height: 360px;
     object-fit: cover;
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
     transform: translateY(3rem);
     box-shadow: #0d24304d 0px 7px 29px 0px;
 }
@@ -55,7 +55,7 @@
     margin-bottom: 2em;
 }
 
-.home__list dt{
+.home__list dt {
     float: left;
     letter-spacing: 0.05rem;
     opacity: 0.6;
@@ -70,7 +70,7 @@
 }
 
 .home__socials {
-   padding: 2rem 1rem 1.6rem 0;
+    padding: 2rem 1rem 1.6rem 0;
 }
 
 .home__social-link {
