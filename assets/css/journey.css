@@ -5,9 +5,15 @@
 }
 
 .journey__title {
-    color: var(--primary-color);
+    color: white;
     letter-spacing: 0.2em;
     margin-bottom: 2rem;
+    background-color: var(--primary-color);
+    width: fit-content;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    transform: translateX(-0.3rem);
 }
 
 .journey__item {
@@ -38,16 +44,23 @@
     margin-bottom: 0.6rem;
     border-bottom: 2px solid #1f495817;
     width: fit-content;
+    font-size: 1.1rem;
 }
 
 .journey__data {
     color: var(--primary-color);
     font-size: 0.95rem;
-    opacity: 0.85;
+    /* opacity: 0.85; */
     margin-bottom: 0.15rem;
 }
 
 .organization {
     font-weight: bold;
-    opacity: 0.8;
+    opacity: 0.85;
+}
+
+.journey__data i {
+    /* color: red; */
+    color: var(--primary-color);
+    opacity: 0.95;
 }
