@@ -1,7 +1,7 @@
-.profile {
+.aboutme {
     opacity: 0.95;
 }
-.profile__details {
+.aboutme__details {
     margin-bottom: 1.3rem;
     text-align: justify;
     color: var(--primary-color);
