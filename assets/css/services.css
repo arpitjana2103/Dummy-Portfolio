@@ -16,6 +16,7 @@
 .services__title {
     margin-bottom: 0.8em;
     color: var(--primary-color);
+    pointer-events: none;
 }
 
 .icon__box {
@@ -46,6 +47,7 @@
 .services__detail {
     font-size: 0.95rem;
     opacity: 0.8;
+    pointer-events: none;
 }
 
 .services__item:hover .services__dot {
