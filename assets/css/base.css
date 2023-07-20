@@ -24,12 +24,10 @@
     /*========Fonts and Typography==========*/
     --roboto-font: 'Roboto', sans-serif;
     --mono-font: 'Roboto Mono', monospace;
-    --mono-martian: 'Martian Mono', monospace;
     --fs-h1: 2.6rem;
     --fs-h2: 1.8rem;
     --fs-base: 1rem;
     --fs-sm: 0.8rem;
-    --fs-xs: 0.7rem;
 
     /*========Font Weight==========*/
     --medium: 500;
@@ -80,7 +78,8 @@ textarea {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: var(--mono-font);
     font-weight: var(--bold);
 }

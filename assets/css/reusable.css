@@ -32,6 +32,12 @@
     line-height: 1.2em;
 }
 
+.text-xs {
+    font-size: var(--fs-base);
+    line-height: 1.5em;
+    font-family: var(--mono-font);
+}
+
 .button {
     background-color: var(--primary-color);
     display: inline-block;
