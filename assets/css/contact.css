@@ -1,0 +1,98 @@
+section.contact {
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    padding-top: 4rem;
+}
+
+.contact h2,
+.contact p,
+.contact dd,
+.contact dt,
+.contact a,
+.contact textarea,
+.contact input,
+.contact textarea::placeholder,
+.contact input::placeholder {
+    color: white;
+    opacity: 0.9;
+}
+.contact__content {
+    z-index: 10;
+    position: relative;
+}
+
+.contact__container {
+    grid-template-columns: 4fr 5fr 3fr;
+    column-gap: 1.875rem;
+    padding-top: 1.25rem;
+}
+
+.contact .section__title {
+    font-family: var(--mono-font);
+}
+
+.contact__list {
+    margin-bottom: 3.25rem;
+}
+
+.contact__list dt {
+    float: left;
+    /* font-weight: var(--bold); */
+    text-transform: uppercase;
+}
+
+.contact__list dd {
+    padding-left: 5rem;
+    margin-bottom: 0.94rem;
+}
+
+.contact__socials li {
+    margin-bottom: 0.75rem;
+}
+
+.contact__socials-link {
+    font-family: var(--roboto-font);
+}
+
+.contact__socials-link i {
+    font-size: 1.5rem;
+}
+
+.contact__form {
+    position: relative;
+}
+
+.contact__button {
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 2rem 0 3rem 0;
+}
+
+.contact__form-title {
+    padding-bottom: 1rem;
+}
+
+.contact__input-div {
+    padding-bottom: 1rem;
+}
+
+.contact__input-div > input {
+    width: 33rem;
+}
+
+.contact__input-div > input,
+.contact__input-div > textarea {
+    border: 2px solid white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.3rem;
+}
+
+p.footer__copy {
+    margin-top: 3rem;
+    text-align: center;
+    opacity: 0.5;
+}

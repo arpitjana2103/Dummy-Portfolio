@@ -48,3 +48,7 @@
     transition: 0.3s;
     border: 2px solid var(--primary-color);
 }
+
+a.button > i {
+    font-size: 1rem;
+}

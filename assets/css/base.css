@@ -51,12 +51,12 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #3d606d;
+    background: var(--primary-color);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #3d606d;
+    background: var(--primary-color);
 }
 
 /*======== Base Level Code ==========*/
@@ -117,8 +117,4 @@ input {
 
 a {
     text-decoration: none;
-}
-
-a > i {
-    font-size: 1rem;
 }

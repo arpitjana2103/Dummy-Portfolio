@@ -40,6 +40,7 @@
 
 .projects__container {
     gap: 2.5rem;
+    padding-top: 1rem;
 }
 
 .project__item {
@@ -53,14 +54,14 @@
     height: 100%;
     object-fit: cover;
     border: 2px solid #d5d7d8;
-    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    border-radius: 0.3rem 0rem 0rem 0.3rem;
 }
 
 .project__data {
     padding: 2rem 2rem 2rem 2rem;
     background-color: #f5f6f7;
     border: 2px solid #d5d7d8;
-    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    border-radius: 0rem 0.3rem 0.3rem 0rem;
     border-left: 0px;
     display: flex;
     flex-direction: column;
