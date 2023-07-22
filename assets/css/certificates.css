@@ -1,0 +1,36 @@
+.certificates {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.certificates > .journey__title {
+    margin-bottom: 0;
+}
+.certificate_container {
+    display: flex;
+    box-shadow: var(--shadow);
+    border-radius: 0.2rem;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: #f5f6f7;
+}
+
+.certificate_container img {
+    width: 6rem;
+    border: 1.5px solid #d5d7d8;
+    border-radius: 0.3rem;
+}
+
+.certificate_container p {
+    margin-top: 0.5rem;
+}
+
+.certificate_container .button {
+    margin-top: 0.5rem;
+    background-color: white;
+    color: var(--primary-color);
+    font-weight: bold;
+    opacity: 0.85;
+}
