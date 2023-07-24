@@ -73,3 +73,15 @@
     top: 0;
     left: 10px;
 }
+
+@media (max-width: 991.98px) {
+    .services__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .services__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

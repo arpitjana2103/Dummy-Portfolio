@@ -4,6 +4,10 @@ section.contact {
     padding-top: 4rem;
 }
 
+textarea {
+    width: 100%;
+}
+
 .contact h2,
 .contact dd,
 .contact dt,
@@ -17,8 +21,8 @@ section.contact {
 }
 
 .contact__container {
-    grid-template-columns: 4fr 5fr 3fr;
-    column-gap: 1.875rem;
+    grid-template-columns: 4fr 5fr 1fr;
+    gap: 1.875rem;
     padding-top: 1.25rem;
 }
 
@@ -95,7 +99,7 @@ section.contact {
 }
 
 .contact__input-div > input {
-    width: 33rem;
+    width: 100%;
 }
 
 .contact__input-div > input,
@@ -132,4 +136,16 @@ p.footer__copy {
     margin-top: 3rem;
     text-align: center;
     opacity: 0.5;
+}
+
+@media (max-width: 1199.98px) {
+    .contact__container {
+        grid-template-columns: 3fr 5fr 0fr;
+    }
+}
+
+@media (max-width: 941px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+    }
 }

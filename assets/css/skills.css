@@ -42,3 +42,11 @@
     font-size: 0.9rem;
     color: var(--primary-color);
 }
+
+@media (max-width: 991.98px) {
+    .skills__container {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+}

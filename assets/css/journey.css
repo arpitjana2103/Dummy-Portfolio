@@ -4,6 +4,10 @@
     padding-top: 1rem;
 }
 
+.journey__path {
+    margin-bottom: 5rem;
+}
+
 .journey__title {
     color: white;
     letter-spacing: 0.2em;
@@ -49,7 +53,6 @@
 .journey__data {
     color: var(--primary-color);
     font-size: 0.95rem;
-    /* opacity: 0.85; */
     margin-bottom: 0.15rem;
 }
 
@@ -62,4 +65,12 @@
     /* color: red; */
     color: var(--primary-color);
     opacity: 0.95;
+}
+
+@media (max-width: 1199.98px) {
+    .journey__container {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 3.57rem;
+        padding-top: 1rem;
+    }
 }
