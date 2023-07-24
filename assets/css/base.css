@@ -110,9 +110,10 @@ img {
 
 textarea,
 input {
-    background: none;
+    /* background: none; */
     border: none;
     outline: none;
+    color: var(--primary-color);
 }
 
 a {

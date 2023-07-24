@@ -558,18 +558,53 @@
                     <h2 class="section__title">Get in touch</h2>
                     <div class="contact__container grid">
                         <div class="contact__info">
-                            <dl class="contact__list">
+                            <!-- <dl class="contact__list">
                                 <dt>Phone :</dt>
                                 <dd>+91 7047809373</dd>
                                 <dt>Email :</dt>
                                 <dd>arpitjana2103@gmail.com</dd>
-                            </dl>
+                            </dl> -->
 
                             <ul class="contact__socials">
                                 <li>
-                                    <a href="" class="contact__socials-link">
-                                        <i class="ri-linkedin-box-fill"></i>
-                                        LinkidIn
+                                    <a
+                                        href="tel:7047809373"
+                                        target="_blank"
+                                        class="contact__socials-link"
+                                    >
+                                        <i class="ri-phone-fill"></i
+                                        >&nbsp;&nbsp; +91 7047809373
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://wa.me/7047809373"
+                                        target="_blank"
+                                        class="contact__socials-link"
+                                    >
+                                        <i class="ri-whatsapp-fill"></i
+                                        >&nbsp;&nbsp; +91 7047809373
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="mailto:arpitjana2103@gmail.com"
+                                        class="contact__socials-link"
+                                        target="_blank"
+                                    >
+                                        <i class="ri-mail-open-fill"></i
+                                        >&nbsp;&nbsp; arpitjana2103@gmail.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.linkedin.com/in/arpit-jana/"
+                                        class="contact__socials-link"
+                                        target="_blank"
+                                    >
+                                        <i class="ri-linkedin-fill"></i
+                                        >&nbsp;&nbsp;
+                                        linkedin.com/in/arpit-jana/
                                     </a>
                                 </li>
                             </ul>
@@ -577,13 +612,14 @@
 
                         <div class="contact__form">
                             <p class="contact__form-title">
-                                Or, just write me a letter
+                                Write me a letter...
                             </p>
 
                             <form id="contact-form">
                                 <div class="contact__input-div">
                                     <input
                                         type="text"
+                                        name="name"
                                         placeholder="Your name"
                                         class="contact__input"
                                         id="contact-name"
@@ -592,6 +628,7 @@
                                 <div class="contact__input-div">
                                     <input
                                         type="email"
+                                        name="email"
                                         placeholder="Your e-mail"
                                         class="contact__input"
                                         id="contact-email"
@@ -600,6 +637,7 @@
 
                                 <div class="contact__input-div">
                                     <textarea
+                                        name="message"
                                         placeholder="Type the message here"
                                         class="contact__input textarea"
                                         id="message"
@@ -609,14 +647,15 @@
                                 </div>
 
                                 <p
-                                    class="contact__message text-sm"
+                                    class="contact__message text-sm color-light"
                                     id="contact-message"
                                 >
                                     Message
                                 </p>
 
                                 <button type="submit" class="contact__button">
-                                    SEND
+                                    <span>Send Message</span>
+                                    <i class="ri-send-plane-2-fill"></i>
                                 </button>
                             </form>
 
@@ -629,6 +668,10 @@
             </section>
         </main>
         <!-- JavaScript -->
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+        ></script>
         <script src="./assets/js/main.js"></script>
     </body>
 </html>

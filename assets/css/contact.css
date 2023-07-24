@@ -5,14 +5,9 @@ section.contact {
 }
 
 .contact h2,
-.contact p,
 .contact dd,
 .contact dt,
-.contact a,
-.contact textarea,
-.contact input,
-.contact textarea::placeholder,
-.contact input::placeholder {
+.contact a {
     color: white;
     opacity: 0.9;
 }
@@ -62,14 +57,33 @@ section.contact {
     position: relative;
 }
 
+.contact__form-title {
+    color: white;
+    opacity: 0.9;
+}
+
+.contact__form i {
+    font-size: 1.3rem;
+}
+
 .contact__button {
     background-color: white;
     width: 100%;
-    padding: 1rem;
-    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 100rem;
     color: var(--primary-color);
     font-weight: bold;
-    margin: 2rem 0 3rem 0;
+    /* margin: 2rem 0 3rem 0; */
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 13rem;
+    transition: 0.3s;
+}
+
+.contact__button:hover {
+    background-color: rgba(255, 255, 255, 0.911);
 }
 
 .contact__form-title {
@@ -89,6 +103,29 @@ section.contact {
     border: 2px solid white;
     padding: 0.5rem 0.8rem;
     border-radius: 0.3rem;
+    opacity: 0.9;
+}
+
+.color-light {
+    opacity: 0;
+}
+
+.color-dark {
+    opacity: 0.9;
+}
+
+#contact-message {
+    transition: 0.5s;
+    color: white;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact__button i {
+    justify-self: self-end;
 }
 
 p.footer__copy {
