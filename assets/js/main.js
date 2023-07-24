@@ -45,3 +45,13 @@ const sendEmail = function (e) {
 };
 
 contactForm.addEventListener('submit', sendEmail);
+
+// Header Scroll
+const header = document.querySelector('#header');
+
+function scrollHeader() {
+    if (this.scrollY >= 500) header.classList.add('scroll-header');
+    else header.classList.remove('scroll-header');
+}
+
+window.addEventListener('scroll', scrollHeader);

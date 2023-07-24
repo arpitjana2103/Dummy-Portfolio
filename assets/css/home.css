@@ -2,7 +2,7 @@
     background: url(../img/laptop.jpg);
     background-size: cover;
     background-position: 50%;
-    padding: 5.5rem 2rem 1.5rem 2rem;
+    padding: 5.5rem 2rem 0.6rem 2rem;
     position: relative;
 }
 
@@ -92,6 +92,9 @@
 }
 
 @media (max-width: 800px) {
+    .home {
+        padding-top: 3rem;
+    }
     .home__container {
         grid-template-columns: 1fr;
     }

@@ -133,9 +133,10 @@ textarea {
 }
 
 p.footer__copy {
-    margin-top: 3rem;
-    text-align: center;
-    opacity: 0.5;
+    padding: 0 2rem 1rem 2rem;
+    background-color: var(--primary-color);
+    color: rgba(255, 255, 255, 0.274);
+    text-align: right;
 }
 
 @media (max-width: 1199.98px) {

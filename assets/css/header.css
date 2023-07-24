@@ -4,10 +4,13 @@
     left: 0;
     width: 100%;
     z-index: 100;
+    padding: 0 2rem;
+    transition: 0.5s;
 }
 
 .nav {
     height: calc(var(--header-height) + 0.875rem);
+    /* padding: 1.5rem 0 1.5rem 0; */
     display: flex;
     align-items: flex-end;
 }
@@ -61,7 +64,18 @@
     opacity: 1;
 }
 
-@media (max-width: 991.98px) {
+.scroll-header {
+    position: fixed;
+    background-color: var(--primary-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.scroll-header .nav {
+    height: unset;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+@media (max-width: 800px) {
     .header {
         display: none;
     }
