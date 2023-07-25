@@ -39,7 +39,6 @@
 .skill__box p {
     position: absolute;
     bottom: -10px;
-    font-size: 0.9rem;
     color: var(--primary-color);
 }
 

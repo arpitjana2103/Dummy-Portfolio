@@ -47,18 +47,19 @@
     margin-bottom: 0.6rem;
     border-bottom: 2px solid #1f495817;
     width: fit-content;
-    font-size: 1.1rem;
+    font-size: var(--fs-lg);
 }
 
 .journey__data {
     color: var(--primary-color);
-    font-size: 0.95rem;
+    font-size: var(--fs-base);
     margin-bottom: 0.15rem;
+    opacity: 0.7;
 }
 
 .organization {
     font-weight: bold;
-    opacity: 0.85;
+    opacity: 0.7;
 }
 
 .journey__data i {

@@ -26,7 +26,6 @@
 
 .nav__link {
     color: #fff;
-    font-size: var(--fs-sm);
     font-weight: var(--bold);
     font-family: var(--mono-font);
     text-transform: uppercase;

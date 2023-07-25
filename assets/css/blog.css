@@ -21,11 +21,10 @@
 }
 .blog__title {
     margin-bottom: 0.6rem;
-    font-size: 1.2rem;
+    font-size: var(--fs-lg);
 }
 
 .blog__detail {
-    font-size: 0.95rem;
     opacity: 0.8;
     pointer-events: none;
     margin-bottom: 0.6rem;

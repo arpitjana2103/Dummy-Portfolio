@@ -26,18 +26,17 @@
 
 .text-base {
     font-size: var(--fs-base);
-    line-height: 1.43rem;
-    background-color: red;
+    line-height: 1.35rem;
 }
 
 .text-lg {
     font-size: var(--fs-base);
-    line-height: 1.43rem;
+    line-height: 1.35rem;
 }
 
 .text-sm {
     font-size: var(--fs-sm);
-    line-height: 1.2em;
+    line-height: 1.2rem;
 }
 
 .text-xs {
@@ -51,7 +50,7 @@
     display: inline-block;
     color: white;
     letter-spacing: 0.05rem;
-    padding: 0.45rem 1rem;
+    padding: 0.3rem 0.8rem;
     border-radius: 100rem;
     transition: 0.3s;
     border: 2px solid var(--primary-color);
