@@ -20,6 +20,7 @@
 .home__container {
     grid-template-columns: 4fr 8fr;
     column-gap: 3rem;
+    max-width: 1076px;
 }
 
 .home__img,

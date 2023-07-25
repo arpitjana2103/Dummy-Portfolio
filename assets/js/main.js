@@ -4,7 +4,7 @@ const contactEmail = document.getElementById('contact-email');
 const message = document.getElementById('message');
 const contactMessage = document.getElementById('contact-message');
 
-const sendEmail = function (e) {
+const sendEmail = async function (e) {
     e.preventDefault();
 
     if (
@@ -12,7 +12,7 @@ const sendEmail = function (e) {
         contactEmail.value === '' ||
         message.value === ''
     ) {
-        contactMessage.innerHTML = `<i class="ri-error-warning-line"></i>&nbsp; &nbsp; <span>Empty Input fields !</span>`;
+        contactMessage.innerHTML = `<i class="ri-error-warning-line"></i>&nbsp;<span>Empty Input fields !</span>`;
         contactMessage.classList.remove('color-light');
         contactMessage.classList.add('color-dark');
 
@@ -26,21 +26,34 @@ const sendEmail = function (e) {
         contactMessage.innerHTML = `<i class="ri-loader-line"></i></i>&nbsp;<span>Sending the Message...</span>`;
         contactMessage.classList.remove('color-light');
         contactMessage.classList.add('color-dark');
-        emailjs
-            .sendForm(
-                'service_kxahvti',
-                'template_pz339gj',
-                contactForm,
-                'vY5bFQCDQ6dZInw98'
-            )
-            .then(function () {
-                contactMessage.innerHTML = `<i class="ri-check-double-line"></i>&nbsp;<span>Message Sent Successfully !</span>`;
 
-                setTimeout(function () {
-                    contactMessage.classList.add('color-light');
-                    contactMessage.classList.remove('color-dark');
-                }, 5000);
-            });
+        try {
+            emailjs
+                .sendForm(
+                    'service_kxahvti',
+                    'template_pz339gj',
+                    contactForm,
+                    'vY5bFQCDQ6dZInw98'
+                )
+                .then(function () {
+                    contactMessage.innerHTML = `<i class="ri-check-double-line"></i>&nbsp;<span>Message Sent Successfully !</span>`;
+
+                    setTimeout(function () {
+                        contactMessage.classList.add('color-light');
+                        contactMessage.classList.remove('color-dark');
+                    }, 5000);
+                })
+                .catch(function (error) {
+                    console.log(error.message);
+                });
+        } catch (error) {
+            contactMessage.innerHTML = `<i class="ri-error-warning-line"></i>&nbsp;<span>Unstable Internet Connection !</span>`;
+
+            setTimeout(function () {
+                contactMessage.classList.add('color-light');
+                contactMessage.classList.remove('color-dark');
+            }, 5000);
+        }
     }
 };
 
