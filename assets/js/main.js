@@ -1,3 +1,4 @@
+// Send Email <=================================================================>
 const contactForm = document.getElementById('contact-form');
 const contactName = document.getElementById('contact-name');
 const contactEmail = document.getElementById('contact-email');
@@ -20,8 +21,6 @@ const sendEmail = async function (e) {
             contactMessage.classList.add('color-light');
             contactMessage.classList.remove('color-dark');
         }, 5000);
-
-        // Show Message
     } else {
         contactMessage.innerHTML = `<i class="ri-loader-line"></i></i>&nbsp;<span>Sending the Message...</span>`;
         contactMessage.classList.remove('color-light');
@@ -59,12 +58,43 @@ const sendEmail = async function (e) {
 
 contactForm.addEventListener('submit', sendEmail);
 
-// Header Scroll
+// Header Scroll <=================================================================>
 const header = document.querySelector('#header');
 
-function scrollHeader() {
+const scrollHeader = function () {
     if (this.scrollY >= 500) header.classList.add('scroll-header');
     else header.classList.remove('scroll-header');
-}
+};
 
 window.addEventListener('scroll', scrollHeader);
+
+// Show-Hide Menu in Mobile Screen
+const navMenue = document.querySelector('#nav-menu');
+const navToggle = document.querySelector('#nav-toggle');
+const navClose = document.querySelector('#nav-close');
+
+if (navToggle) {
+    navToggle.addEventListener('click', function () {
+        navMenue.classList.add('show-menu');
+        this.style.opacity = 0;
+    });
+}
+
+if (navClose) {
+    navClose.addEventListener('click', function () {
+        navMenue.classList.remove('show-menu');
+        navToggle.style.opacity = 1;
+    });
+}
+
+// Hide Menu after clicking
+const navLinks = document.querySelectorAll('.nav__link');
+
+const linkAction = function () {
+    navMenue.classList.remove('show-menu');
+    navToggle.style.opacity = 1;
+};
+
+navLinks.forEach(function (n) {
+    n.addEventListener('click', linkAction);
+});
