@@ -113,14 +113,22 @@ ul.tags {
 }
 
 .project__links .button {
-    /* background-color: white;
-    color: var(--primary-color); */
-    /* font-weight: bold; */
     opacity: 0.9;
 }
 
 @media (max-width: 915.98px) {
     .project__item {
         grid-template-columns: 1fr;
+    }
+
+    .project__img {
+        border-radius: 0.3rem 0.3rem 0rem 0rem;
+        border: 2px solid #d5d7d8;
+        border-bottom: 0px;
+    }
+
+    .project__data {
+        border-radius: 0rem 0rem 0.3rem 0.3rem;
+        border: 2px solid #d5d7d8;
     }
 }
