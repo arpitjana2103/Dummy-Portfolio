@@ -2,6 +2,8 @@ section.contact {
     background-color: var(--primary-color);
     margin-top: 2rem;
     padding-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 textarea {
@@ -18,6 +20,7 @@ textarea {
 .contact__content {
     z-index: 10;
     position: relative;
+    padding: 0 2rem;
 }
 
 .contact__container {
