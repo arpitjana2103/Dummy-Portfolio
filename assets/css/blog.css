@@ -16,6 +16,8 @@
 .blog__img {
     border-radius: 0.3rem;
     margin-bottom: 1rem;
+    width: 100%;
+    object-fit: cover;
 }
 .blog__title {
     margin-bottom: 0.6rem;
