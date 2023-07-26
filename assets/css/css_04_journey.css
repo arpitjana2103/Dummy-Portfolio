@@ -54,12 +54,11 @@
     color: var(--primary-color);
     font-size: var(--fs-base);
     margin-bottom: 0.15rem;
-    opacity: 0.7;
 }
 
 .organization {
     font-weight: bold;
-    opacity: 0.7;
+    opacity: 0.85;
 }
 
 .journey__data i {

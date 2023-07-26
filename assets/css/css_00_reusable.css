@@ -1,8 +1,6 @@
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    /* padding-left: 0.9rem;
-    padding-right: 0.9rem; */
 }
 
 .grid {
@@ -27,22 +25,12 @@
 .text-base {
     font-size: var(--fs-base);
     line-height: 1.35rem;
-}
-
-.text-lg {
-    font-size: var(--fs-base);
-    line-height: 1.35rem;
+    opacity: 0.9;
 }
 
 .text-sm {
     font-size: var(--fs-sm);
     line-height: 1.2rem;
-}
-
-.text-xs {
-    font-size: var(--fs-base);
-    line-height: 1.5em;
-    font-family: var(--mono-font);
 }
 
 .button {

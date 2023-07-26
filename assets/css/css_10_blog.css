@@ -25,7 +25,6 @@
 }
 
 .blog__detail {
-    opacity: 0.8;
     pointer-events: none;
     margin-bottom: 0.6rem;
 }
