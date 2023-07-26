@@ -69,7 +69,6 @@
 
 html {
     scroll-behavior: smooth;
-    overflow: scroll;
     scrollbar-color: var(--primary-color) #27272715;
     scrollbar-width: thin;
 }
