@@ -47,7 +47,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: rgba(39, 39, 39, 0.082);
+    background: #27272715;
 }
 
 /* Handle */
@@ -69,6 +69,9 @@
 
 html {
     scroll-behavior: smooth;
+    overflow: scroll;
+    scrollbar-color: var(--primary-color) #27272715;
+    scrollbar-width: thin;
 }
 
 body,

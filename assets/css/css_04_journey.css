@@ -53,6 +53,8 @@
 .journey__data {
     color: var(--primary-color);
     font-size: var(--fs-base);
+    line-height: 1.35rem;
+    opacity: 0.9;
     margin-bottom: 0.15rem;
 }
 
