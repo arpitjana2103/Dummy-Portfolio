@@ -39,6 +39,7 @@
     position: absolute;
     bottom: -10px;
     color: var(--primary-color);
+    pointer-events: none;
 }
 
 @media (max-width: 991.98px) {

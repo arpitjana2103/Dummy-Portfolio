@@ -1,559 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- ================ CSS ================ -->
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <!-- ============ Remixi Icon ============ -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
-            rel="stylesheet"
-        />
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/qq9Mhzhj/apple-touch-icon.png" />
-        <title>Arpit Jana - NodeJS Backend Developer</title>
-    </head>
 
-    <body>
-        <!-- ==================== Header ====================== -->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li>
-                            <a href="#home" class="nav__link text-sm">Home</a>
-                        </li>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ================ CSS ================ -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- ============ Remixi Icon ============ -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/qq9Mhzhj/apple-touch-icon.png" />
+    <title>Arpit Jana - NodeJS Backend Developer</title>
+</head>
 
-                        <li>
-                            <a href="#journey" class="nav__link text-sm">Journey</a>
-                        </li>
-                        <li>
-                            <a href="#skills" class="nav__link text-sm">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#services" class="nav__link text-sm">Services</a>
-                        </li>
-                        <li>
-                            <a href="#projects" class="nav__link text-sm">Projects</a>
-                        </li>
+<body>
+    <!-- ==================== Header ====================== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link text-sm">Home</a>
+                    </li>
 
-                        <li>
-                            <a href="#contact" class="nav__link text-sm">Contact</a>
-                        </li>
-                    </ul>
+                    <li>
+                        <a href="#journey" class="nav__link text-sm">Journey</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav__link text-sm">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav__link text-sm">Services</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="nav__link text-sm">Projects</a>
+                    </li>
 
-                    <div class="nav__close" id="nav-close">
-                        <i class="ri-close-fill"></i>
+                    <li>
+                        <a href="#contact" class="nav__link text-sm">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-fill"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-2-line"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- ==================== Main ====================== -->
+    <main class="main">
+        <!-- ==================== Home ====================== -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/profile.png" alt="" class="home__img" />
+
+                <div class="home__data">
+                    <h1 class="home__name">Arpit Jana_</h1>
+                    <p class="home__work">NodeJS Backend Developer</p>
+                    <dl class="home__list">
+                        <dt>AGE:</dt>
+                        <dd>24 years</dd>
+                        <dt>PHONE:</dt>
+                        <dd>+91 7047809373</dd>
+                        <dt>EMAIL:</dt>
+                        <dd>arpitjana2103@gmail.com</dd>
+                        <dt>ADDRESS:</dt>
+                        <dd>Ghatal, West Bengal, India</dd>
+                    </dl>
+                    <div class="home__socials">
+                        <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank" class="home__social-link"><i
+                                class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank" class="home__social-link"><i
+                                class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank" class="home__social-link"
+                            id="leetcode_icon">
+                            <img src="./assets/img/leetcode.png" alt="leetcode" width="23px" />
+                        </a>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-2-line"></i>
-                </div>
-            </nav>
-        </header>
-        <!-- ==================== Main ====================== -->
-        <main class="main">
-            <!-- ==================== Home ====================== -->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <img
-                        src="assets/img/profile.png"
-                        alt=""
-                        class="home__img"
-                    />
+        <!-- ==================== profile ====================== -->
+        <section class="aboutme section container">
+            <h2 class="section__title">About me_</h2>
+            <p class="aboutme__details text-base">
+                Hello there! I'm Arpit Jana, a NodeJS Backend Developer with
+                a strong passion for crafting efficient and scalable web
+                solutions. My tech stack includes NodeJS, ExpressJS, and
+                MongoDB. With over 1500 hours of coding experience, I'm
+                dedicated to creating seamless backend architectures that
+                empower outstanding user experiences on the frontend.
+                Although I'm new to the professional field, I am
+                enthusiastic, driven, and ready to take on exciting
+                challenges. Let's collaborate and turn your ideas into
+                reality with cutting-edge technologies that will elevate
+                your web applications to new heights.
+            </p>
+            <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank" class="button button--flex text-sm"
+                style="margin-right: 1rem">
+                See Projects
+            </a>
+            <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank" class="button button--flex text-sm"
+                id="resume_btn">
+                Resume <i class="ri-external-link-line"></i>
+            </a>
+        </section>
 
-                    <div class="home__data">
-                        <h1 class="home__name">Arpit Jana_</h1>
-                        <p class="home__work">NodeJS Backend Developer</p>
-                        <dl class="home__list">
-                            <dt>AGE:</dt>
-                            <dd>24 years</dd>
-                            <dt>PHONE:</dt>
-                            <dd>+91 7047809373</dd>
-                            <dt>EMAIL:</dt>
-                            <dd>arpitjana2103@gmail.com</dd>
-                            <dt>ADDRESS:</dt>
-                            <dd>Ghatal, West Bengal, India</dd>
-                        </dl>
-                        <div class="home__socials">
-                            <a
-                                href="https://www.linkedin.com/in/arpit-jana/"
-                                target="_blank"
-                                class="home__social-link"
-                                ><i class="ri-github-fill"></i>
-                            </a>
-                            <a
-                                href="https://www.linkedin.com/in/arpit-jana/"
-                                target="_blank"
-                                class="home__social-link"
-                                ><i class="ri-linkedin-box-fill"></i>
-                            </a>
-                            <a
-                                href="https://www.linkedin.com/in/arpit-jana/"
-                                target="_blank"
-                                class="home__social-link"
-                                id="leetcode_icon"
-                            >
-                                <img
-                                    src="./assets/img/leetcode.png"
-                                    alt="leetcode"
-                                    width="23px"
-                                />
-                            </a>
-                        </div>
+        <!-- ==================== journey ====================== -->
+        <section class="section container" id="journey">
+            <h2 class="section__title">Journey_</h2>
+            <div class="journey__container grid">
+                <div class="journey__path">
+                    <h3 class="journey__title text-sm">EDUCATION</h3>
+                    <div class="journey__item">
+                        <h3 class="journey__subtitle">
+                            Bachelor's in Computer Application - B.C.A
+                        </h3>
+                        <p class="journey__data organization">
+                            Indira Gandhi National Open University
+                            <a href=""><i class="ri-link-m"></i></a>
+                        </p>
+                        <p class="journey__data">
+                            Jul 2020 - Jan 2022 | Kolkata, India
+                        </p>
+                        <p class="journey__data">
+                            - dropped out due to COVID-19 pandemic
+                        </p>
+                    </div>
+                    <div class="journey__item">
+                        <h3 class="journey__subtitle">
+                            Diploma in Civil Engineering - Polytechnic
+                        </h3>
+                        <p class="journey__data organization">
+                            Hooghly Institute of Technology
+                            <a href=""><i class="ri-link-m"></i></a>
+                        </p>
+                        <p class="journey__data">
+                            Jun 2017 - Oct 2020 | Chinsurah, India
+                        </p>
+                        <p class="journey__data">
+                            - under West Bengal State Council of Technical
+                            Education
+                        </p>
                     </div>
                 </div>
-            </section>
-
-            <!-- ==================== profile ====================== -->
-            <section class="aboutme section container">
-                <h2 class="section__title">About me_</h2>
-                <p class="aboutme__details text-base">
-                    Hello there! I'm Arpit Jana, a NodeJS Backend Developer with
-                    a strong passion for crafting efficient and scalable web
-                    solutions. My tech stack includes NodeJS, ExpressJS, and
-                    MongoDB. With over 1500 hours of coding experience, I'm
-                    dedicated to creating seamless backend architectures that
-                    empower outstanding user experiences on the frontend.
-                    Although I'm new to the professional field, I am
-                    enthusiastic, driven, and ready to take on exciting
-                    challenges. Let's collaborate and turn your ideas into
-                    reality with cutting-edge technologies that will elevate
-                    your web applications to new heights.
-                </p>
-                <a
-                    href="https://www.linkedin.com/in/arpit-jana/"
-                    target="_blank"
-                    class="button button--flex text-sm"
-                    style="margin-right: 1rem"
-                >
-                    See Projects
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/arpit-jana/"
-                    target="_blank"
-                    class="button button--flex text-sm"
-                    id="resume_btn"
-                >
-                    Resume <i class="ri-external-link-line"></i>
-                </a>
-            </section>
-
-            <!-- ==================== journey ====================== -->
-            <section class="section container" id="journey">
-                <h2 class="section__title">Journey_</h2>
-                <div class="journey__container grid">
-                    <div class="journey__path">
-                        <h3 class="journey__title text-sm">EDUCATION</h3>
-                        <div class="journey__item">
-                            <h3 class="journey__subtitle">
-                                Bachelor's in Computer Application - B.C.A
-                            </h3>
-                            <p class="journey__data organization">
-                                Indira Gandhi National Open University
-                                <a href=""><i class="ri-link-m"></i></a>
-                            </p>
-                            <p class="journey__data">
-                                Jul 2020 - Jan 2022 | Kolkata, India
-                            </p>
-                            <p class="journey__data">
-                                - dropped out due to COVID-19 pandemic
-                            </p>
-                        </div>
-                        <div class="journey__item">
-                            <h3 class="journey__subtitle">
-                                Diploma in Civil Engineering - Polytechnic
-                            </h3>
-                            <p class="journey__data organization">
-                                Hooghly Institute of Technology
-                                <a href=""><i class="ri-link-m"></i></a>
-                            </p>
-                            <p class="journey__data">
-                                Jun 2017 - Oct 2020 | Chinsurah, India
-                            </p>
-                            <p class="journey__data">
-                                - under West Bengal State Council of Technical
-                                Education
-                            </p>
-                        </div>
+                <div class="journey__path">
+                    <h3 class="journey__title text-sm">EXPERIENCE</h3>
+                    <div class="journey__item">
+                        <h3 class="journey__subtitle">
+                            NodeJS Backend Web Development - Full Time
+                        </h3>
+                        <p class="journey__data organization">
+                            Masai School | A Nolan Edutech Pvt Ltd Venture
+                            <a href=""><i class="ri-link-m"></i></a>
+                        </p>
+                        <p class="journey__data">
+                            Nov 2022 - Aug 2023 | Bangalore, India
+                        </p>
+                        <p class="journey__data">
+                            - developed multiple projects using
+                            node-express-mongo
+                        </p>
                     </div>
-                    <div class="journey__path">
-                        <h3 class="journey__title text-sm">EXPERIENCE</h3>
-                        <div class="journey__item">
-                            <h3 class="journey__subtitle">
-                                NodeJS Backend Web Development - Full Time
-                            </h3>
-                            <p class="journey__data organization">
-                                Masai School | A Nolan Edutech Pvt Ltd Venture
-                                <a href=""><i class="ri-link-m"></i></a>
-                            </p>
-                            <p class="journey__data">
-                                Nov 2022 - Aug 2023 | Bangalore, India
-                            </p>
-                            <p class="journey__data">
-                                - developed multiple projects using
-                                node-express-mongo
-                            </p>
-                        </div>
-                        <div class="journey__item">
-                            <h3 class="journey__subtitle">
-                                Jewellery 3D-CAD Modeling - Full Time
-                            </h3>
-                            <p class="journey__data organization">
-                                Freelancing - Nipunj Jewellery & Artworks
-                                <a href=""><i class="ri-link-m"></i></a>
-                            </p>
-                            <p class="journey__data">
-                                Feb 2020 - Oct 2022 | Ahmedabad, India
-                            </p>
-                            <p class="journey__data">
-                                - Jewellery 3D-CAD Modeling using Rhinoceros 3D
-                                ( version: 7.00 )
-                            </p>
-                        </div>
+                    <div class="journey__item">
+                        <h3 class="journey__subtitle">
+                            Jewellery 3D-CAD Modeling - Full Time
+                        </h3>
+                        <p class="journey__data organization">
+                            Freelancing - Nipunj Jewellery & Artworks
+                            <a href=""><i class="ri-link-m"></i></a>
+                        </p>
+                        <p class="journey__data">
+                            Feb 2020 - Oct 2022 | Ahmedabad, India
+                        </p>
+                        <p class="journey__data">
+                            - Jewellery 3D-CAD Modeling using Rhinoceros 3D
+                            ( version: 7.00 )
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="certificates">
-                    <h2 class="journey__title text-sm">CERTIFICATIONS</h2>
-                    <div class="certificate_container">
-                        <img
-                            src="https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_200_200/0/1626275253364?e=1698278400&v=beta&t=3oY6ycyWAp7__F6ng3dw1RYuvh8oR9E7GvUbgRRq99o"
-                            alt="udemy"
-                        />
-                        <div class="certification__details">
-                            <h3 class="certificate__title">
-                                Responsive Real-World Websites with HTML and CSS
-                            </h3>
-                            <p class="certificate__org">Udemy</p>
-                            <a
-                                href="https://www.linkedin.com/in/arpit-jana/"
-                                target="_blank"
-                                class="button button--flex text-sm"
-                            >
-                                <span>Show credential</span>
-                                <i class="ri-external-link-line"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="certificate_container">
-                        <img
-                            src="https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_200_200/0/1626275253364?e=1698278400&v=beta&t=3oY6ycyWAp7__F6ng3dw1RYuvh8oR9E7GvUbgRRq99o"
-                            alt="udemy"
-                        />
-                        <div class="certification__details">
-                            <h3 class="certificate__title">
-                                Master the Coding Interview: Data Structures +
-                                Algorithms
-                            </h3>
-                            <p class="certificate__org">Udemy</p>
-                            <a
-                                href="https://www.linkedin.com/in/arpit-jana/"
-                                target="_blank"
-                                class="button button--flex text-sm"
-                            >
-                                <span>Show credential</span>
-                                <i class="ri-external-link-line"></i>
-                            </a>
-                        </div>
+            <div class="certificates">
+                <h2 class="journey__title text-sm">CERTIFICATIONS</h2>
+                <div class="certificate_container">
+                    <img src="https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_200_200/0/1626275253364?e=1698278400&v=beta&t=3oY6ycyWAp7__F6ng3dw1RYuvh8oR9E7GvUbgRRq99o"
+                        alt="udemy" />
+                    <div class="certification__details">
+                        <h3 class="certificate__title">
+                            Responsive Real-World Websites with HTML and CSS
+                        </h3>
+                        <p class="certificate__org">Udemy</p>
+                        <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank"
+                            class="button button--flex text-sm">
+                            <span>Show credential</span>
+                            <i class="ri-external-link-line"></i>
+                        </a>
                     </div>
                 </div>
-            </section>
+                <div class="certificate_container">
+                    <img src="https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_200_200/0/1626275253364?e=1698278400&v=beta&t=3oY6ycyWAp7__F6ng3dw1RYuvh8oR9E7GvUbgRRq99o"
+                        alt="udemy" />
+                    <div class="certification__details">
+                        <h3 class="certificate__title">
+                            Master the Coding Interview: Data Structures +
+                            Algorithms
+                        </h3>
+                        <p class="certificate__org">Udemy</p>
+                        <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank"
+                            class="button button--flex text-sm">
+                            <span>Show credential</span>
+                            <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <!-- ==================== Skills ====================== -->
-            <section class="section container" id="skills">
-                <h2 class="section__title">Skills_</h2>
-                <div class="skills__container grid">
-                    <div class="skills__data">
-                        <h3 class="skills__title text-sm">TECH-STACKS</h3>
-                        <div class="skills__item">
+        <!-- ==================== Skills ====================== -->
+        <section class="section container" id="skills">
+            <h2 class="section__title">Skills_</h2>
+            <div class="skills__container grid">
+                <div class="skills__data">
+                    <h3 class="skills__title text-sm">TECH-STACKS</h3>
+                    <div class="skills__item">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
                             <div class="skill__box">
                                 <img src="./assets/img/html.png" alt="Html" />
                                 <p>HTML - 5</p>
                             </div>
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
                             <div class="skill__box">
                                 <img src="./assets/img/css.png" alt="CSS" />
                                 <p>CSS - 3</p>
                             </div>
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/js.png"
-                                    alt="JavaScript"
-                                />
+                                <img src="./assets/img/js.png" alt="JavaScript" />
                                 <p>JavaScript - ES6</p>
                             </div>
+                        </a>
+                        <a href="https://nodejs.dev/en/learn/" target="_blank">
                             <div class="skill__box">
                                 <img src="./assets/img/node.png" alt="nodeJS" />
                                 <p>nodeJS</p>
                             </div>
+                        </a>
+                        <a href="https://expressjs.com/" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/ex.png"
-                                    alt="expressJS"
-                                />
+                                <img src="./assets/img/ex.png" alt="expressJS" />
                                 <p>expressJS</p>
                             </div>
+                        </a>
+                        <a href="https://pugjs.org/api/getting-started.html" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/pug.png"
-                                    alt="Pug Template"
-                                />
+                                <img src="./assets/img/pug.png" alt="Pug Template" />
                                 <p>Pug Template</p>
                             </div>
+                        </a>
+                        <a href="https://www.mongodb.com/" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/mongo.png"
-                                    alt="mongoDB"
-                                />
+                                <img src="./assets/img/mongo.png" alt="mongoDB" />
                                 <p>mongoDB</p>
                             </div>
+                        </a>
+                        <a href="https://www.mysql.com/" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/sql.png"
-                                    alt="MySQL"
-                                />
+                                <img src="./assets/img/sql.png" alt="MySQL" />
                                 <p>MySQL</p>
                             </div>
+                        </a>
+                        <a href="https://redis.io/" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/redis.png"
-                                    alt="Redis"
-                                />
+                                <img src="./assets/img/redis.png" alt="Redis" />
                                 <p>Redis</p>
                             </div>
-                            
-                        </div>
+                        </a>
                     </div>
-                    <div class="skills__data">
-                        <h3 class="skills__title text-sm">DEV-TOOLS</h3>
-                        <div class="skills__item">
+                </div>
+                <div class="skills__data">
+                    <h3 class="skills__title text-sm">DEV-TOOLS</h3>
+                    <div class="skills__item">
+                        <a href="https://code.visualstudio.com/" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/vs.png"
-                                    alt="VS Code"
-                                />
+                                <img src="./assets/img/vs.png" alt="VS Code" />
                                 <p>VS Code</p>
                             </div>
-                            <div class="skill__box">
-                                <img
-                                    src="./assets/img/post.png"
-                                    alt="Postman"
-                                />
-                                <p>Postman</p>
-                            </div>
+                        </a>
+                        <a href="https://docs.npmjs.com/about-npm" target="_blank">
                             <div class="skill__box">
                                 <img src="./assets/img/npm.png" alt="npm" />
                                 <p>npm</p>
                             </div>
+                        </a>
+                        <a href="https://www.postman.com/" target="_blank">
+                            <div class="skill__box">
+                                <img src="./assets/img/post.png" alt="Postman" />
+                                <p>Postman</p>
+                            </div>
+                        </a>
+                        <a href="https://git-scm.com/" target="_blank">
                             <div class="skill__box">
                                 <img src="./assets/img/git.png" alt="git" />
                                 <p>Git</p>
                             </div>
-
+                        </a>
+                        <a href="https://github.com/" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/github.png"
-                                    alt="github"
-                                />
+                                <img src="./assets/img/github.png" alt="github" />
                                 <p>GitHub</p>
                             </div>
+                        </a>
+                        <a href="https://github.com/features/actions" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/action.png"
-                                    alt="Github Actions"
-                                />
+                                <img src="./assets/img/action.png" alt="Github Actions" />
                                 <p>Github Actions</p>
                             </div>
+                        </a>
+                        <a href="https://railway.app/" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/railway.png"
-                                    alt="railway"
-                                />
+                                <img src="./assets/img/railway.png" alt="railway" />
                                 <p>Railway</p>
                             </div>
-                            
-                            
+                        </a>
+                        <a href="https://www.mysql.com/products/workbench/" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/sqlwork.png"
-                                    alt="MySQL Workbench"
-                                />
+                                <img src="./assets/img/sqlwork.png" alt="MySQL Workbench" />
                                 <p>Workbench</p>
                             </div>
+                        </a>
+                        <a href="https://www.notion.so/" target="_blank">
                             <div class="skill__box">
-                                <img
-                                    src="./assets/img/notion.png"
-                                    alt="MySQL Workbench"
-                                />
+                                <img src="./assets/img/notion.png" alt="MySQL Workbench" />
                                 <p>Notion</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- ==================== Services ====================== -->
-            <section class="services section container" id="services">
-                <h2 class="section__title">Services_</h2>
-                <div class="services__container grid">
-                    <div class="services__item">
-                        <div class="icon__box">
-                            <img
-                                src="assets/img/api.png"
-                                alt=""
-                                class="services__icon"
-                            />
-                            <div class="services__dot">
-                                <span class="dot"></span>
-                            </div>
+        <!-- ==================== Services ====================== -->
+        <section class="services section container" id="services">
+            <h2 class="section__title">Services_</h2>
+            <div class="services__container grid">
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/api.png" alt="" class="services__icon" />
+                        <div class="services__dot">
+                            <span class="dot"></span>
                         </div>
-                        <h3 class="services__title ">
-                            RESTful API Development
-                        </h3>
-                        <p class="services__detail text-base">
-                            develop robust and efficient RESTful APIs using
-                            NodeJS and ExpressJS, ensuring seamless
-                            communication between client and server.
-                        </p>
                     </div>
-                    <div class="services__item">
-                        <div class="icon__box">
-                            <img
-                                src="assets/img/document.png"
-                                alt=""
-                                class="services__icon"
-                            />
-                            <div class="services__dot">
-                                <span class="dot"></span>
-                            </div>
-                        </div>
-                        <h3 class="services__title">
-                            API Documentation
-                        </h3>
-                        <p class="services__detail text-base">
-                            create comprehensive and user-friendly documentation
-                            for your APIs using tools like Swagger, making it
-                            easier for developers to understand and utilize your
-                            APIs.
-                        </p>
-                    </div>
-                    <div class="services__item">
-                        <div class="icon__box">
-                            <img
-                                src="assets/img/servers.png"
-                                alt=""
-                                class="services__icon"
-                            />
-                            <div class="services__dot">
-                                <span class="dot"></span>
-                            </div>
-                        </div>
-                        <h3 class="services__title ">
-                            Server-Side Rendering
-                        </h3>
-                        <p class="services__detail text-base">
-                            implement server-side rendering using Pug templates,
-                            enhancing website performance and optimizing SEO for
-                            better search engine visibility.
-                        </p>
-                    </div>
-                    <div class="services__item">
-                        <div class="icon__box">
-                            <img
-                                src="assets/img/server.png"
-                                alt=""
-                                class="services__icon"
-                            />
-                            <div class="services__dot">
-                                <span class="dot"></span>
-                            </div>
-                        </div>
-                        <h3 class="services__title ">
-                            Database Management
-                        </h3>
-                        <p class="services__detail text-base">
-                            efficiently handle and manage databases, utilizing
-                            MongoDB to design and optimize data storage
-                            structures, ensuring smooth and reliable data
-                            operations.
-                        </p>
-                    </div>
-                    <div class="services__item">
-                        <div class="icon__box">
-                            <img
-                                src="assets/img/insurance.png"
-                                alt=""
-                                class="services__icon"
-                            />
-                            <div class="services__dot">
-                                <span class="dot"></span>
-                            </div>
-                        </div>
-                        <h3 class="services__title ">
-                            User Authentication
-                        </h3>
-                        <p class="services__detail text-base">
-                            implement secure authentication and authorization
-                            systems using OAuth and Google Authentication,
-                            safeguarding user data and ensuring secure access to
-                            your applications.
-                        </p>
-                    </div>
-                    <div class="services__item">
-                        <div class="icon__box">
-                            <img
-                                src="assets/img/credit-card.png"
-                                alt=""
-                                class="services__icon"
-                            />
-                            <div class="services__dot">
-                                <span class="dot"></span>
-                            </div>
-                        </div>
-                        <h3 class="services__title ">
-                            Payment Gateway Integration
-                        </h3>
-                        <p class="services__detail text-base">
-                            integrate popular payment gateways like Stripe or
-                            PayPal to enable secure and seamless online
-                            transactions for your customers.
-                        </p>
-                    </div>
+                    <h3 class="services__title ">
+                        RESTful API Development
+                    </h3>
+                    <p class="services__detail text-base">
+                        develop robust and efficient RESTful APIs using
+                        NodeJS and ExpressJS, ensuring seamless
+                        communication between client and server.
+                    </p>
                 </div>
-            </section>
-
-    <!-- ==================== Projects ====================== -->
-            <section class="prjects section container" id="projects">
-                <h2 class="section__title">Projects_</h2>
-
-                <div class="projects__container grid">
-                    
-                    <div class="project__item grid">
-                        <div class="project__img">
-                        <img
-                            src="https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg"
-                            alt="project-1"
-                        />
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/document.png" alt="" class="services__icon" />
+                        <div class="services__dot">
+                            <span class="dot"></span>
                         </div>
-                        
-                        <div class="project__data">
-                            <div>
-                                <h3 class="project__title ">
-                                    Project title
-                                </h3>
-                                <p class="project__description text-base">
-                                    Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit. Iure, nobis facilis alias
-                                    nam id molestiae sit cum cupiditate beatae
-                                    accusamus voluptatum fugit asperiores,
-                                    eligendi modi. Dicta perspiciatis laudantium
-                                    dolor voluptate. Lorem, ipsum dolor sit amet
-                                    consectetur adipisicing elit.
-                                </p>
-                            </div>
-                            <div>
+                    </div>
+                    <h3 class="services__title">
+                        API Documentation
+                    </h3>
+                    <p class="services__detail text-base">
+                        create comprehensive and user-friendly documentation
+                        for your APIs using tools like Swagger, making it
+                        easier for developers to understand and utilize your
+                        APIs.
+                    </p>
+                </div>
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/servers.png" alt="" class="services__icon" />
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title ">
+                        Server-Side Rendering
+                    </h3>
+                    <p class="services__detail text-base">
+                        implement server-side rendering using Pug templates,
+                        enhancing website performance and optimizing SEO for
+                        better search engine visibility.
+                    </p>
+                </div>
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/server.png" alt="" class="services__icon" />
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title ">
+                        Database Management
+                    </h3>
+                    <p class="services__detail text-base">
+                        efficiently handle and manage databases, utilizing
+                        MongoDB to design and optimize data storage
+                        structures, ensuring smooth and reliable data
+                        operations.
+                    </p>
+                </div>
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/insurance.png" alt="" class="services__icon" />
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title ">
+                        User Authentication
+                    </h3>
+                    <p class="services__detail text-base">
+                        implement secure authentication and authorization
+                        systems using OAuth and Google Authentication,
+                        safeguarding user data and ensuring secure access to
+                        your applications.
+                    </p>
+                </div>
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/credit-card.png" alt="" class="services__icon" />
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title ">
+                        Payment Gateway Integration
+                    </h3>
+                    <p class="services__detail text-base">
+                        integrate popular payment gateways like Stripe or
+                        PayPal to enable secure and seamless online
+                        transactions for your customers.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== Projects ====================== -->
+        <section class="prjects section container" id="projects">
+            <h2 class="section__title">Projects_</h2>
+
+            <div class="projects__container grid">
+
+                <div class="project__item grid">
+                    <div class="project__img">
+                        <img src="https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg" alt="project-1" />
+                    </div>
+
+                    <div class="project__data">
+                        <div>
+                            <h3 class="project__title ">
+                                Project title
+                            </h3>
+                            <p class="project__description text-base">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Iure, nobis facilis alias
+                                nam id molestiae sit cum cupiditate beatae
+                                accusamus voluptatum fugit asperiores,
+                                eligendi modi. Dicta perspiciatis laudantium
+                                dolor voluptate. Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <div>
                             <h4 class="project__stack">Used Stack</h4>
                             <ul class="tags text-sm">
                                 <li>Node</li>
@@ -563,66 +491,51 @@
                                 <li>CSS</li>
                                 <li>HTML</li>
                             </ul>
-                            </div>
+                        </div>
 
-                            
-                            <div class="project__links">
-                                <a
-                                    href="https://www.linkedin.com/in/arpit-jana/"
-                                    target="_blank"
-                                    class="button button--flex text-sm"
-                                    ><i class="ri-global-line"></i>
-                                    <span>Live</span>
-                                </a>
-                                <a
-                                    href="https://www.linkedin.com/in/arpit-jana/"
-                                    target="_blank"
-                                    class="button button--flex text-sm"
-                                    ><i class="ri-github-line"></i>
-                                    <span>Github</span>
-                                </a>
-                                <a
-                                    href="https://www.linkedin.com/in/arpit-jana/"
-                                    target="_blank"
-                                    class="button button--flex text-sm"
-                                    ><i class="ri-movie-line"></i>
-                                    <span>Video</span>
-                                </a>
-                                <a
-                                    href="https://www.linkedin.com/in/arpit-jana/"
-                                    target="_blank"
-                                    class="button button--flex text-sm"
-                                    ><i class="ri-send-plane-line"></i>
-                                    <span>Try API</span>
-                                </a>
-                            </div>
+
+                        <div class="project__links">
+                            <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank"
+                                class="button button--flex text-sm"><i class="ri-global-line"></i>
+                                <span>Live</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank"
+                                class="button button--flex text-sm"><i class="ri-github-line"></i>
+                                <span>Github</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank"
+                                class="button button--flex text-sm"><i class="ri-movie-line"></i>
+                                <span>Video</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank"
+                                class="button button--flex text-sm"><i class="ri-send-plane-line"></i>
+                                <span>Try API</span>
+                            </a>
                         </div>
                     </div>
-                    <div class="project__item grid">
-                        <div class="project__img">
-                        <img
-                            src="https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg"
-                            alt="project-1"
-                        />
+                </div>
+                <div class="project__item grid">
+                    <div class="project__img">
+                        <img src="https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg" alt="project-1" />
+                    </div>
+
+                    <div class="project__data">
+                        <div>
+                            <h3 class="project__title ">
+                                Project title
+                            </h3>
+                            <p class="project__description text-base">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Iure, nobis facilis alias
+                                nam id molestiae sit cum cupiditate beatae
+                                accusamus voluptatum fugit asperiores,
+                                eligendi modi. Dicta perspiciatis laudantium
+                                dolor voluptate. Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                            </p>
                         </div>
-                        
-                        <div class="project__data">
-                            <div>
-                                <h3 class="project__title ">
-                                    Project title
-                                </h3>
-                                <p class="project__description text-base">
-                                    Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit. Iure, nobis facilis alias
-                                    nam id molestiae sit cum cupiditate beatae
-                                    accusamus voluptatum fugit asperiores,
-                                    eligendi modi. Dicta perspiciatis laudantium
-                                    dolor voluptate. Lorem, ipsum dolor sit amet
-                                    consectetur adipisicing elit.
-                                </p>
-                            </div>
-                            <div>
-<h4 class="project__stack">Used Stack</h4>
+                        <div>
+                            <h4 class="project__stack">Used Stack</h4>
                             <ul class="tags text-sm">
                                 <li>Node</li>
                                 <li>Express</li>
@@ -631,220 +544,157 @@
                                 <li>CSS</li>
                                 <li>HTML</li>
                             </ul>
+                        </div>
+
+
+                        <div class="project__links">
+                            <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank"
+                                class="button button--flex text-sm"><i class="ri-global-line"></i>
+                                <span>Live</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank"
+                                class="button button--flex text-sm"><i class="ri-github-line"></i>
+                                <span>Github</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank"
+                                class="button button--flex text-sm"><i class="ri-movie-line"></i>
+                                <span>Video</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/arpit-jana/" target="_blank"
+                                class="button button--flex text-sm"><i class="ri-send-plane-line"></i>
+                                <span>Try API</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== Blogs ====================== -->
+        <section class="blogs section container" id="blogs">
+            <h2 class="section__title">Blogs_</h2>
+            <div class="blogs__container grid">
+                <div class="blogs__item">
+                    <img class="blog__img" src="https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg" />
+                    <h3 class="blog__title">JavaScript vs Java</h3>
+                    <p class="blog__detail text-base">
+                        develop robust and efficient RESTful APIs using
+                        NodeJS and ExpressJS, ensuring seamless
+                        communication between client and server. develop
+                        robust and efficient RESTful APIs using NodeJS and
+                        ExpressJS, ensuring seamless communication between
+                        client and server. develop robust and efficient
+                        RESTful APIs using NodeJS and ExpressJS, ensuring
+                        seamless communication between client and server.
+                    </p>
+                    <div class="blog-link">
+                        <a href="" target="_blank">read this blog
+                            <i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+                <div class="blogs__item">
+                    <img class="blog__img" src="https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg" />
+                    <h3 class="blog__title">JavaScript vs Java</h3>
+                    <p class="blog__detail text-base">
+                        develop robust and efficient RESTful APIs using
+                        NodeJS and ExpressJS, ensuring seamless
+                        communication between client and server. develop
+                        robust and efficient RESTful APIs using NodeJS and
+                        ExpressJS, ensuring seamless communication between
+                        client and server. develop robust and efficient
+                        RESTful APIs using NodeJS and ExpressJS, ensuring
+                        seamless communication between client and server.
+                    </p>
+                    <div class="blog-link">
+                        <a href="" target="_blank">read this blog
+                            <i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-link all-blogs">
+                <a href="" target="_blank">Read all blogs <i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+        </section>
+
+        <!-- ==================== Contacts ====================== -->
+        <section class="contact section" id="contact">
+            <div class="contact__content container">
+                <h2 class="section__title">Get in touch_</h2>
+                <div class="contact__container grid">
+                    <div class="contact__info">
+                        <ul class="contact__socials">
+                            <li>
+                                <a href="tel:7047809373" target="_blank" class="contact__socials-link">
+                                    <i class="ri-phone-fill"></i>&nbsp;&nbsp; +91 7047809373
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/7047809373" target="_blank" class="contact__socials-link">
+                                    <i class="ri-whatsapp-fill"></i>&nbsp;&nbsp; +91 7047809373
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:arpitjana2103@gmail.com" class="contact__socials-link" target="_blank">
+                                    <i class="ri-mail-open-fill"></i>&nbsp;&nbsp; arpitjana2103@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/arpit-jana/" class="contact__socials-link"
+                                    target="_blank">
+                                    <i class="ri-linkedin-fill"></i>&nbsp;&nbsp;
+                                    linkedin.com/in/arpit-jana/
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact__form">
+                        <p class="contact__form-title">
+                            Write me a letter...
+                        </p>
+
+                        <form id="contact-form">
+                            <div class="contact__input-div">
+                                <input type="text" name="name" placeholder="Your name" class="contact__input"
+                                    id="contact-name" />
+                            </div>
+                            <div class="contact__input-div">
+                                <input type="email" name="email" placeholder="Your e-mail" class="contact__input"
+                                    id="contact-email" />
                             </div>
 
-                            
-                            <div class="project__links">
-                                <a
-                                    href="https://www.linkedin.com/in/arpit-jana/"
-                                    target="_blank"
-                                    class="button button--flex text-sm"
-                                    ><i class="ri-global-line"></i>
-                                    <span>Live</span>
-                                </a>
-                                <a
-                                    href="https://www.linkedin.com/in/arpit-jana/"
-                                    target="_blank"
-                                    class="button button--flex text-sm"
-                                    ><i class="ri-github-line"></i>
-                                    <span>Github</span>
-                                </a>
-                                <a
-                                    href="https://www.linkedin.com/in/arpit-jana/"
-                                    target="_blank"
-                                    class="button button--flex text-sm"
-                                    ><i class="ri-movie-line"></i>
-                                    <span>Video</span>
-                                </a>
-                                <a
-                                    href="https://www.linkedin.com/in/arpit-jana/"
-                                    target="_blank"
-                                    class="button button--flex text-sm"
-                                    ><i class="ri-send-plane-line"></i>
-                                    <span>Try API</span>
-                                </a>
+                            <div class="contact__input-div">
+                                <textarea name="message" placeholder="Type the message here"
+                                    class="contact__input textarea" id="message" rows="10"></textarea>
                             </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
 
-            <!-- ==================== Blogs ====================== -->
-           <section class="blogs section container" id="blogs">
-                <h2 class="section__title">Blogs_</h2>
-                <div class="blogs__container grid">
-                    <div class="blogs__item">
-                        <img
-                            class="blog__img"
-                            src="https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg"
-                        />
-                        <h3 class="blog__title">JavaScript vs Java</h3>
-                        <p class="blog__detail text-base">
-                            develop robust and efficient RESTful APIs using
-                            NodeJS and ExpressJS, ensuring seamless
-                            communication between client and server. develop
-                            robust and efficient RESTful APIs using NodeJS and
-                            ExpressJS, ensuring seamless communication between
-                            client and server. develop robust and efficient
-                            RESTful APIs using NodeJS and ExpressJS, ensuring
-                            seamless communication between client and server.
-                        </p>
-                        <div class="blog-link">
-                            <a href="" target="_blank"
-                                >read this blog
-                                <i class="ri-external-link-line"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="blogs__item">
-                        <img
-                            class="blog__img"
-                            src="https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg"
-                        />
-                        <h3 class="blog__title">JavaScript vs Java</h3>
-                        <p class="blog__detail text-base">
-                            develop robust and efficient RESTful APIs using
-                            NodeJS and ExpressJS, ensuring seamless
-                            communication between client and server. develop
-                            robust and efficient RESTful APIs using NodeJS and
-                            ExpressJS, ensuring seamless communication between
-                            client and server. develop robust and efficient
-                            RESTful APIs using NodeJS and ExpressJS, ensuring
-                            seamless communication between client and server.
-                        </p>
-                        <div class="blog-link">
-                            <a href="" target="_blank"
-                                >read this blog
-                                <i class="ri-external-link-line"></i
-                            ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-link all-blogs">
-                    <a href="" target="_blank"
-                        >Read all blogs <i class="ri-arrow-right-s-line"></i></i
-                    ></a>
-                </div>
-            </section>
-
-            <!-- ==================== Contacts ====================== -->
-            <section class="contact section" id="contact">
-                <div class="contact__content container">
-                    <h2 class="section__title">Get in touch_</h2>
-                    <div class="contact__container grid">
-                        <div class="contact__info">
-                            <ul class="contact__socials">
-                                <li>
-                                    <a
-                                        href="tel:7047809373"
-                                        target="_blank"
-                                        class="contact__socials-link"
-                                    >
-                                        <i class="ri-phone-fill"></i
-                                        >&nbsp;&nbsp; +91 7047809373
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://wa.me/7047809373"
-                                        target="_blank"
-                                        class="contact__socials-link"
-                                    >
-                                        <i class="ri-whatsapp-fill"></i
-                                        >&nbsp;&nbsp; +91 7047809373
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="mailto:arpitjana2103@gmail.com"
-                                        class="contact__socials-link"
-                                        target="_blank"
-                                    >
-                                        <i class="ri-mail-open-fill"></i
-                                        >&nbsp;&nbsp; arpitjana2103@gmail.com
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://www.linkedin.com/in/arpit-jana/"
-                                        class="contact__socials-link"
-                                        target="_blank"
-                                    >
-                                        <i class="ri-linkedin-fill"></i
-                                        >&nbsp;&nbsp;
-                                        linkedin.com/in/arpit-jana/
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="contact__form">
-                            <p class="contact__form-title">
-                                Write me a letter...
+                            <p class="contact__message text-sm color-light" id="contact-message">
+                                Message
                             </p>
 
-                            <form id="contact-form">
-                                <div class="contact__input-div">
-                                    <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Your name"
-                                        class="contact__input"
-                                        id="contact-name"
-                                    />
-                                </div>
-                                <div class="contact__input-div">
-                                    <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Your e-mail"
-                                        class="contact__input"
-                                        id="contact-email"
-                                    />
-                                </div>
-
-                                <div class="contact__input-div">
-                                    <textarea
-                                        name="message"
-                                        placeholder="Type the message here"
-                                        class="contact__input textarea"
-                                        id="message"
-                                        rows="10"
-                                    ></textarea>
-                                </div>
-
-                                <p
-                                    class="contact__message text-sm color-light"
-                                    id="contact-message"
-                                >
-                                    Message
-                                </p>
-
-                                <button type="submit" class="contact__button">
-                                    <span>Send Message</span>
-                                    <i class="ri-send-plane-2-fill"></i>
-                                </button>
-                            </form>
-                        </div>
+                            <button type="submit" class="contact__button">
+                                <span>Send Message</span>
+                                <i class="ri-send-plane-2-fill"></i>
+                            </button>
+                        </form>
                     </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
 
-        <footer>
-            <p class="footer__copy">
-                Made with love <i class="ri-heart-fill"></i> by Arpit Jana
-            </p>
-            <p class="footer__copy">
-                &copy; 2023 Arpit Jana. All Rights Reserved
-            </p>
-        </footer>
-        <!-- JavaScript -->
-        <script
-            type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-        ></script>
-        <script src="./assets/js/main.js"></script>
-    </body>
+    <footer>
+        <p class="footer__copy">
+            Made with love <i class="ri-heart-fill"></i> by Arpit Jana
+        </p>
+        <p class="footer__copy">
+            &copy; 2023 Arpit Jana. All Rights Reserved
+        </p>
+    </footer>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
 </html>
