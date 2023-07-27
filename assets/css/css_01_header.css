@@ -12,9 +12,10 @@
 }
 
 #logo a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: var(--blackOps-font);
     font-weight: normal;
+    vertical-align: middle;
 }
 
 #logo a:hover::after {
@@ -31,6 +32,8 @@
 .nav__list {
     display: flex;
     column-gap: 3.25rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav__close,
@@ -79,7 +82,8 @@
 }
 
 .scroll-header #logo {
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .scroll-header .nav {
