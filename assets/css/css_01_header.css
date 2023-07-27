@@ -84,6 +84,7 @@
 .scroll-header #logo {
     display: flex;
     align-items: center;
+    transform: translateY(0.08rem);
 }
 
 .scroll-header .nav {
