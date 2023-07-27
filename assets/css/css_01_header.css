@@ -7,6 +7,16 @@
     transition: 0.5s;
 }
 
+#logo a {
+    font-size: 2rem;
+    font-family: var(--blackOps-font);
+    font-weight: normal;
+}
+
+#logo a:hover::after {
+    opacity: 0;
+}
+
 .nav {
     height: calc(var(--header-height) + 0.875rem);
     padding: 0 2rem;
@@ -62,6 +72,10 @@
     position: fixed;
     background-color: var(--primary-color);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.scroll-header #logo {
+    display: block;
 }
 
 .scroll-header .nav {

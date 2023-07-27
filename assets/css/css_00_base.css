@@ -1,6 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Calistoga&display=swap');
 /* CSS Variables */
 
 :root {
@@ -24,9 +24,10 @@
     /*========Fonts and Typography==========*/
     --roboto-font: 'Roboto', sans-serif;
     --mono-font: 'Roboto Mono', monospace;
+    --blackOps-font: 'Black Ops One', 'Roboto Mono', monospace;
     --fs-h1: 2.6rem;
     --fs-h2: 1.8rem;
-    --fs-base: 1rem;
+    --fs-base: 16px;
     --fs-lg: 1.1rem;
     --fs-sm: 0.8rem;
 
@@ -76,7 +77,8 @@ html {
 body,
 button,
 input,
-textarea {
+textarea,
+span {
     font-family: var(--roboto-font);
     font-size: var(--fs-base);
 }

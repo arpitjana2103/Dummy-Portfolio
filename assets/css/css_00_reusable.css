@@ -24,8 +24,10 @@
 
 .text-base {
     font-size: var(--fs-base);
-    line-height: 1.35rem;
+    line-height: 24px;
     opacity: 0.9;
+    letter-spacing: normal;
+    word-spacing: 0px;
 }
 
 .text-sm {

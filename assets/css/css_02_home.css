@@ -6,6 +6,13 @@
     position: relative;
 }
 
+#initialA {
+    font-family: var(--blackOps-font);
+    font-weight: normal;
+    font-size: 3.5rem;
+    opacity: 0.85;
+}
+
 .home::before {
     content: '';
     position: absolute;

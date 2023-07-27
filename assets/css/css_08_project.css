@@ -75,14 +75,12 @@
 
 .project__title {
     margin-bottom: 0.6rem;
-    text-align: justify;
     color: var(--primary-color);
     font-size: var(--fs-lg);
 }
 
 .project__description {
     margin-bottom: 1.5rem;
-    text-align: justify;
     color: var(--primary-color);
 }
 
