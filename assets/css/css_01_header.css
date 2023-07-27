@@ -7,6 +7,10 @@
     transition: 0.5s;
 }
 
+#logo {
+    display: none;
+}
+
 #logo a {
     font-size: 2rem;
     font-family: var(--blackOps-font);
