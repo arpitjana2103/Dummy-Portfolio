@@ -59,7 +59,16 @@
 }
 
 .home__work {
-    margin-bottom: 2em;
+    color: var(--primary-color);
+    letter-spacing: 0.07rem;
+    word-spacing: -0.15rem;
+    margin-bottom: 1.8rem;
+    background-color: white;
+    width: fit-content;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.1rem;
+    text-align: center;
+    opacity: 0.9;
 }
 
 .home__list dt {
@@ -78,25 +87,23 @@
 
 .home__socials {
     padding: 2rem 1rem 1.6rem 0;
+    display: flex;
+    gap: 1rem;
 }
 
 .home__social-link {
     font-size: 1.7rem;
     line-height: 1.36rem;
-    margin-right: 0.25rem;
     opacity: 0.6;
     transition: 0.3s;
 }
 
-.home__social-link:hover {
-    opacity: 1;
+.home__social-link > img {
+    height: 1.5rem;
 }
 
-#leetcode_icon {
-    padding-right: 1.5rem;
-}
-#leetcode_icon > img {
-    transform: translateY(0.1rem);
+.home__social-link:hover {
+    opacity: 1;
 }
 
 @media (max-width: 800px) {
