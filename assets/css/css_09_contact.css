@@ -52,6 +52,10 @@ textarea {
     margin-bottom: 0.75rem;
 }
 
+.contact__socials li img {
+    height: 0.9rem;
+}
+
 .contact__socials-link {
     font-family: var(--roboto-font);
 }

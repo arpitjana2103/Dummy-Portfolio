@@ -88,22 +88,40 @@
 .home__socials {
     padding: 2rem 1rem 1.6rem 0;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .home__social-link {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 1.36rem;
     opacity: 0.6;
     transition: 0.3s;
+    position: relative;
+}
+
+.home__social-link > span {
+    position: absolute;
+    bottom: -1.9rem;
+    left: 0;
+    transform: translateX(-25%);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+    font-weight: 400;
+    font-size: 0.8rem;
 }
 
 .home__social-link > img {
-    height: 1.23rem;
+    height: 1.16rem;
+    width: 1.5rem;
+    transform: translateY(0.6px);
 }
 
 .home__social-link:hover {
     opacity: 1;
+}
+.home__social-link:hover span {
+    opacity: 0.7;
 }
 
 @media (max-width: 800px) {
