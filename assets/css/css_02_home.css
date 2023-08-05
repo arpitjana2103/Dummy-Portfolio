@@ -88,11 +88,11 @@
 .home__socials {
     padding: 2rem 1rem 1.6rem 0;
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .home__social-link {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     line-height: 1.36rem;
     opacity: 0.6;
     transition: 0.3s;
@@ -112,8 +112,7 @@
 }
 
 .home__social-link > img {
-    height: 1.16rem;
-    width: 1.5rem;
+    height: 1.3rem;
     transform: translateY(0.6px);
 }
 
