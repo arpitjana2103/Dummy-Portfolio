@@ -10,7 +10,6 @@
     font-family: var(--blackOps-font);
     font-weight: normal;
     font-size: 3.5rem;
-    opacity: 0.85;
 }
 
 .home::before {
@@ -56,6 +55,7 @@
     font-size: var(--fs-h1);
     line-height: 1.14em;
     margin: 0.9em 0 0.23em;
+    opacity: 0.9;
 }
 
 .home__work {
@@ -69,6 +69,7 @@
     border-radius: 0.1rem;
     text-align: center;
     opacity: 0.9;
+    text-transform: uppercase;
 }
 
 .home__list dt {
@@ -79,6 +80,7 @@
 
 .home__list dd {
     padding-left: 6.25rem;
+    opacity: 0.9;
 }
 
 .home__list dd:not(:last-child) {
@@ -109,6 +111,7 @@
     transition: 0.3s;
     font-weight: 400;
     font-size: 0.8rem;
+    letter-spacing: 1px;
 }
 
 .home__social-link > img {
