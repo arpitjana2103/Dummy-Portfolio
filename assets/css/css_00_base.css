@@ -10,9 +10,9 @@
     --primary-color: #1f4958;
     --linear-gradient: linear-gradient(
         90deg,
-        rgba(13, 36, 48, 1) 0%,
-        rgba(7, 53, 70, 1) 37%,
-        rgba(57, 93, 107, 1) 100%
+        #0d2430 0%,
+        #073546 37%,
+        hsla(197, 23%, 39%, 0.85) 100%
     );
     --title-color: red;
     --text-color: red;
