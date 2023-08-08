@@ -131,3 +131,24 @@ ul.tags {
         background-color: #f5f6f7;
     }
 }
+@media (max-width: 500px) {
+    .project__links {
+        flex-direction: column;
+        display: flex;
+        width: fit-content;
+    }
+}
+@media (max-width: 400px) {
+    .project__links {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+
+    .project__links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+}
