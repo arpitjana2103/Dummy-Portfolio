@@ -92,10 +92,14 @@
     padding: 1rem 2rem 1rem 2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     /* .header {
         display: none;
     } */
+
+    .nav {
+        padding-top: 5rem;
+    }
 
     .scroll-header {
         background-color: transparent;
@@ -145,6 +149,7 @@
         color: white;
         font-size: 1.25rem;
         padding: 1rem;
+        margin-top: 1rem;
     }
     .scroll-header .nav__toggle {
         color: white;

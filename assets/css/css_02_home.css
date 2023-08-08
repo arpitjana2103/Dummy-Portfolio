@@ -35,7 +35,7 @@
 }
 
 .home__img {
-    min-width: 300px;
+    min-width: 280px;
     height: 360px;
     object-fit: cover;
     border-radius: 0.2rem;
@@ -135,5 +135,31 @@
     }
     .home__img {
         margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .home {
+        background: none;
+    }
+
+    .home::before {
+        background: var(--primary-color);
+    }
+
+    .home__img {
+        min-width: 200px;
+        height: 260px;
+    }
+
+    #initialA {
+        font-size: 2.5rem;
+    }
+
+    .home__name {
+        font-size: 2rem;
+        line-height: 1.14em;
+        margin: 0.6em 0 0.23em;
+        opacity: 0.9;
     }
 }

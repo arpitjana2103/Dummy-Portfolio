@@ -39,11 +39,16 @@
     background-color: var(--primary-color);
     display: inline-block;
     color: white;
+    font-size: var(--fs-sm);
     letter-spacing: 0.05rem;
     padding: 0.3rem 0.8rem;
     border-radius: 100rem;
     transition: 0.3s;
     border: 2px solid var(--primary-color);
+}
+
+.button > span {
+    font-size: var(--fs-sm);
 }
 
 a.button > i {
