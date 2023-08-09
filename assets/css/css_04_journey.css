@@ -48,6 +48,7 @@
     border-bottom: 2px solid #1f495817;
     width: fit-content;
     font-size: var(--fs-lg);
+    text-overflow: ellipsis;
 }
 
 .journey__data {

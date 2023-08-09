@@ -131,3 +131,9 @@ ul.tags {
         background-color: #f5f6f7;
     }
 }
+
+@media (max-width: 500px) {
+    .project__img {
+        padding: 0rem;
+    }
+}

@@ -98,3 +98,33 @@ const linkAction = function () {
 navLinks.forEach(function (n) {
     n.addEventListener('click', linkAction);
 });
+
+// Style Below 500px <=================================================================>
+// Function to update display width and change background color if needed
+function updateProfilePic() {
+    const displayWidth = window.innerWidth;
+
+    console.log(displayWidth);
+
+    // Check if the display width is below 500px
+    if (displayWidth < 500) {
+        document.querySelector('#home__img').src = 'assets/img/profile2.jpeg';
+        document.querySelector('#address').innerText = 'West Bengal, India';
+    } else {
+        document.querySelector('#home__img').src = 'assets/img/profile.png';
+        document.querySelector('#address').innerText =
+            'Ghatal, West Bengal, India';
+    }
+
+    if (displayWidth < 390) {
+        alert(
+            'A larger screen size is recommended for an enhanced user experience.'
+        );
+    }
+}
+
+// Initial call to set the display width and background color when the page loads
+updateProfilePic();
+
+// Listen for window resize events and update the display width and background color accordingly
+// window.addEventListener('resize', updateProfilePic);
