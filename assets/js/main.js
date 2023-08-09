@@ -115,16 +115,10 @@ function updateProfilePic() {
         document.querySelector('#address').innerText =
             'Ghatal, West Bengal, India';
     }
-
-    if (displayWidth < 390) {
-        alert(
-            'A larger screen size is recommended for an enhanced user experience.'
-        );
-    }
 }
 
 // Initial call to set the display width and background color when the page loads
 updateProfilePic();
 
 // Listen for window resize events and update the display width and background color accordingly
-// window.addEventListener('resize', updateProfilePic);
+window.addEventListener('resize', updateProfilePic);
