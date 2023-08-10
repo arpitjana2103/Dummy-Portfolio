@@ -112,7 +112,7 @@ function updateProfilePic() {
     // alert(displayWidth);
 
     // Check if the display width is below 500px
-    if (displayWidth <= 500) {
+    if (displayWidth <= 540) {
         document.querySelector('#home__img').src = 'assets/img/profile2.jpeg';
         document.querySelector('#address').innerText = 'West Bengal, India';
         document.querySelector(
@@ -123,6 +123,8 @@ function updateProfilePic() {
         document.querySelector('#node').innerText =
             'NodeJS Backend Web Development';
         document.querySelector('#cad').innerText = 'Jewellery 3D-CAD Modeling';
+    } else if (displayWidth > 540 && displayWidth <= 750) {
+        document.querySelector('#home__img').src = 'assets/img/profile2.jpeg';
     } else {
         document.querySelector('#home__img').src = 'assets/img/profile.png';
         document.querySelector('#address').innerText =

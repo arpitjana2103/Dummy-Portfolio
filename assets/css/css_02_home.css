@@ -126,45 +126,43 @@
     opacity: 0.7;
 }
 
-@media (max-width: 890px) {
+@media (max-width: 750px) {
     .home {
         padding-top: 3rem;
     }
     .home__container {
         grid-template-columns: 1fr;
     }
-    .home__img {
-        margin-bottom: 3rem;
-    }
-}
-
-@media (max-width: 500px) {
     .home {
         background: none;
     }
-
     .home::before {
-        background: var(--primary-color);
+        background: #0d2532;
     }
+    .home__img {
+        min-width: 200px;
+        height: 200px;
+        margin-bottom: 2rem;
+        border-radius: 100rem;
+    }
+}
 
+@media (max-width: 540px) {
     .home__img {
         min-width: 150px;
         height: 150px;
         margin-bottom: 4rem;
         border-radius: 100rem;
     }
-
     #initialA {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
-
     .home__name {
-        font-size: 1.8rem;
+        font-size: 2rem;
         line-height: 1.14em;
         margin: 0.6em 0 0.23em;
         opacity: 0.9;
     }
-
     .home__work {
         background-color: transparent;
         text-transform: unset;

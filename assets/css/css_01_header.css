@@ -154,7 +154,7 @@
     .scroll-header .nav__toggle {
         color: white;
         font-size: 1.25rem;
-        background-color: #1f4958ea;
+        background-color: rgba(31, 73, 88, 0.8);
         border-radius: 0.2rem;
         padding: 1rem;
         cursor: pointer;
