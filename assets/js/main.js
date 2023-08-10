@@ -104,10 +104,10 @@ navLinks.forEach(function (n) {
 function updateProfilePic() {
     const displayWidth = window.innerWidth;
 
-    console.log(displayWidth);
+    // alert(displayWidth);
 
     // Check if the display width is below 500px
-    if (displayWidth < 500) {
+    if (displayWidth <= 500) {
         document.querySelector('#home__img').src = 'assets/img/profile2.jpeg';
         document.querySelector('#address').innerText = 'West Bengal, India';
         document.querySelector(
