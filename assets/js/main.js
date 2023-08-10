@@ -110,10 +110,28 @@ function updateProfilePic() {
     if (displayWidth < 500) {
         document.querySelector('#home__img').src = 'assets/img/profile2.jpeg';
         document.querySelector('#address').innerText = 'West Bengal, India';
+        document.querySelector(
+            '#bca'
+        ).innerText = `Bachelor's in Computer Application`;
+        document.querySelector('#civil').innerText =
+            'Diploma in Civil Engineering';
+        document.querySelector('#node').innerText =
+            'NodeJS Backend Web Development';
+        document.querySelector('#cad').innerText = 'Jewellery 3D-CAD Modeling';
     } else {
         document.querySelector('#home__img').src = 'assets/img/profile.png';
         document.querySelector('#address').innerText =
             'Ghatal, West Bengal, India';
+
+        document.querySelector(
+            '#bca'
+        ).innerText = `Bachelor's in Computer Application - BCA`;
+        document.querySelector('#civil').innerText =
+            'Diploma in Civil Engineering - Polytechnic';
+        document.querySelector('#node').innerText =
+            'NodeJS Backend Web Development - Full Time';
+        document.querySelector('#cad').innerText =
+            'Jewellery 3D-CAD Modeling - Full Time';
     }
 }
 
