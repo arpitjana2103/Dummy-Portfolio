@@ -93,10 +93,6 @@
 }
 
 @media (max-width: 900px) {
-    /* .header {
-        display: none;
-    } */
-
     .nav {
         padding-top: 5rem;
     }

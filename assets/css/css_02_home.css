@@ -126,7 +126,7 @@
     opacity: 0.7;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     .home {
         padding-top: 3rem;
     }

@@ -62,9 +62,13 @@ contactForm.addEventListener('submit', sendEmail);
 const header = document.querySelector('#header');
 
 const scrollHeader = function () {
-    if (window.innerWidth > 890 && this.scrollY >= 500)
+    if (window.innerWidth > 900 && this.scrollY >= 500)
         header.classList.add('scroll-header');
-    else if (window.innerWidth <= 750 && this.scrollY >= 650)
+    else if (
+        window.innerWidth <= 900 &&
+        window.innerWidth > 540 &&
+        this.scrollY >= 650
+    )
         header.classList.add('scroll-header');
     else if (window.innerWidth <= 540 && this.scrollY >= 600)
         header.classList.add('scroll-header');
@@ -123,7 +127,7 @@ function updateProfilePic() {
         document.querySelector('#node').innerText =
             'NodeJS Backend Web Development';
         document.querySelector('#cad').innerText = 'Jewellery 3D-CAD Modeling';
-    } else if (displayWidth > 540 && displayWidth <= 750) {
+    } else if (displayWidth > 540 && displayWidth <= 900) {
         document.querySelector('#home__img').src = 'assets/img/profile2.jpeg';
     } else {
         document.querySelector('#home__img').src = 'assets/img/profile.png';
