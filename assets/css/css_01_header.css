@@ -148,8 +148,8 @@
     .nav__toggle {
         color: white;
         font-size: 1.25rem;
-        padding: 1rem;
         margin-top: 1rem;
+        padding-bottom: 1rem;
     }
     .scroll-header .nav__toggle {
         color: white;

@@ -62,7 +62,12 @@ contactForm.addEventListener('submit', sendEmail);
 const header = document.querySelector('#header');
 
 const scrollHeader = function () {
-    if (this.scrollY >= 500) header.classList.add('scroll-header');
+    if (window.innerWidth > 890 && this.scrollY >= 500)
+        header.classList.add('scroll-header');
+    else if (window.innerWidth <= 890 && this.scrollY >= 850)
+        header.classList.add('scroll-header');
+    else if (window.innerWidth <= 500 && this.scrollY >= 600)
+        header.classList.add('scroll-header');
     else header.classList.remove('scroll-header');
 };
 
