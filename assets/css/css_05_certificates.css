@@ -11,15 +11,14 @@
     display: flex;
     box-shadow: var(--shadow);
     border-radius: 0.2rem;
-    padding: 1rem;
+    padding: 1.5rem;
     gap: 2rem;
     background-color: #f5f6f7;
 }
 
 .certificate_container img {
-    width: 6rem;
-    height: 6rem;
-    min-width: 6rem;
+    width: 98px;
+    height: 98px;
     border: 1.5px solid #d5d7d8;
     border-radius: 0.3rem;
 }
@@ -33,11 +32,17 @@
     margin-top: 0.5rem;
     background-color: transparent;
     color: var(--primary-color);
-    font-weight: bold;
-    opacity: 0.8;
+    color: white;
+    background-color: var(--primary-color);
     border: none;
-    padding: 0;
-    padding-top: 0.6rem;
+    border-radius: 0.2rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.certificate_container .button:hover {
+    opacity: 0.9;
 }
 
 @media (max-width: 500px) {
@@ -46,22 +51,8 @@
         gap: 1rem;
     }
 
-    .certificate_container img {
-        width: 4.5rem;
-        height: 4.5rem;
-        min-width: unset;
-    }
-
     .certificate_container h3 {
         font-size: 1.05rem;
         margin-bottom: 1rem;
-    }
-
-    .certificate_container .button {
-        background-color: transparent;
-        border: none;
-        padding-left: 0;
-        padding: 0;
-        padding-top: 1rem;
     }
 }
