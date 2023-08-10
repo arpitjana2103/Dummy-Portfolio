@@ -9,3 +9,7 @@
     font-weight: var(--semibold);
     border: 2px solid var(--primary-color);
 }
+
+#resume_btn:hover {
+    background-color: rgba(31, 73, 88, 0.1);
+}

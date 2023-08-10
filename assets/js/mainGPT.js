@@ -58,8 +58,8 @@ function updateHeaderScroll() {
 
     if (
         (innerWidth <= 540 && scrollY >= 600) ||
-        (innerWidth <= 900 && innerWidth > 540 && scrollY >= 650) ||
-        (innerWidth > 900 && scrollY >= 500)
+        (innerWidth <= 750 && innerWidth > 540 && scrollY >= 650) ||
+        (innerWidth > 750 && scrollY >= 500)
     ) {
         header.classList.add('scroll-header');
     } else {
@@ -122,7 +122,7 @@ function updateProfileContent() {
         civil.innerText = 'Diploma in Civil Engineering';
         node.innerText = 'NodeJS Backend Web Development';
         cad.innerText = 'Jewellery 3D-CAD Modeling';
-    } else if (displayWidth > 540 && displayWidth <= 900) {
+    } else if (displayWidth > 540 && displayWidth <= 750) {
         homeImg.src = 'assets/img/profile2.jpeg';
     } else {
         homeImg.src = 'assets/img/profile.png';

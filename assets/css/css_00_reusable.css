@@ -44,6 +44,10 @@
     border: 2px solid var(--primary-color);
 }
 
+.button:hover {
+    background-color: rgba(31, 73, 88, 0.9);
+}
+
 .button > span {
     font-size: var(--fs-sm);
 }
