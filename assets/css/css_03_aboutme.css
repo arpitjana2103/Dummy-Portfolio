@@ -7,7 +7,6 @@
     background-color: white;
     color: var(--primary-color);
     font-weight: var(--semibold);
-    border: 2px solid var(--primary-color);
 }
 
 #resume_btn:hover {
