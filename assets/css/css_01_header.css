@@ -8,7 +8,9 @@
 }
 
 #logo {
-    display: none;
+    display: flex;
+    align-items: center;
+    transform: translateY(0.08rem);
 }
 
 #logo a {
@@ -81,18 +83,12 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.scroll-header #logo {
-    display: flex;
-    align-items: center;
-    transform: translateY(0.08rem);
-}
-
 .scroll-header .nav {
     height: unset;
     padding: 1rem 2rem 1rem 2rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .nav {
         padding-top: 5rem;
     }
