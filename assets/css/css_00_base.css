@@ -14,12 +14,8 @@
         #073546 37%,
         hsla(197, 23%, 39%, 0.85) 100%
     );
-    --title-color: red;
-    --text-color: red;
-    --text-color-alt: red;
     --bg-color: #fff;
-    --bg-color-alt: #e9ecef;
-    --border-color: #cfcece;
+    --bg-color-card: #f5f6f7;
 
     /*========Fonts and Typography==========*/
     --roboto-font: 'Roboto', sans-serif;

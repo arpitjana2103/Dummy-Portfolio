@@ -8,9 +8,9 @@
 .blogs__item {
     padding: 1.5rem;
     box-shadow: var(--shadow);
-    border-radius: 0.2rem;
+    border-radius: 0.3rem;
     cursor: pointer;
-    background-color: #f5f6f7;
+    background-color: var(--bg-color-card);
 }
 
 .blog__img {
@@ -33,21 +33,6 @@
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
-}
-
-.blog-link a {
-    padding: 0.3rem 0.5rem;
-    font-size: 0.9em;
-    border-radius: 0.2rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    color: white;
-    opacity: 0.8;
-    background-color: var(--primary-color);
-    transition: 0.3s;
-}
-
-.blog-link a:hover {
-    background-color: rgba(31, 73, 88, 0.9);
 }
 
 .all-blogs {

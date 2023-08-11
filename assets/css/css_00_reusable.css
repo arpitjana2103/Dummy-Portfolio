@@ -22,7 +22,7 @@
 .text-base {
     font-size: var(--fs-base);
     line-height: 24px;
-    opacity: 0.9;
+    opacity: 0.8;
     letter-spacing: normal;
     word-spacing: 0px;
 }
@@ -37,6 +37,7 @@
     display: inline-block;
     color: white;
     font-size: var(--fs-sm);
+    line-height: 1.2rem;
     letter-spacing: 0.05rem;
     padding: 0.3rem 0.8rem;
     border-radius: 100rem;
@@ -44,12 +45,34 @@
     border: 2px solid var(--primary-color);
 }
 
-.button:hover {
-    background-color: rgba(31, 73, 88, 0.9);
+.buttonSq {
+    border: none;
+    background-color: var(--primary-color);
+    display: inline-block;
+    color: white;
+    font-size: var(--fs-sm);
+    line-height: 1.2rem;
+    letter-spacing: 0.05rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.2rem;
+    transition: 0.3s;
+}
+
+.buttonSq > span {
+    font-size: var(--fs-sm);
+    line-height: 1.2rem;
 }
 
 .button > span {
     font-size: var(--fs-sm);
+}
+
+.button:hover {
+    background-color: rgba(31, 73, 88, 0.9);
+}
+
+.buttonSq:hover {
+    background-color: rgba(31, 73, 88, 0.9);
 }
 
 a.button > i {

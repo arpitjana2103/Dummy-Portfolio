@@ -52,7 +52,8 @@
 .project__img {
     padding: 1.5rem;
     padding-right: 0;
-    background-color: #f5f6f7;
+    background-color: var(--bg-color-card);
+    border-radius: 0.3rem 0rem 0rem 0.3rem;
 }
 
 .project__img > img {
@@ -64,7 +65,7 @@
 
 .project__data {
     padding: 1.5rem;
-    background-color: #f5f6f7;
+    background-color: var(--bg-color-card);
     /* border: 2px solid #d5d7d8; */
     border-radius: 0rem 0.3rem 0.3rem 0rem;
     border-left: 0px;
@@ -128,7 +129,12 @@ ul.tags {
     .project__img {
         padding: 1.5rem;
         padding-bottom: 0;
-        background-color: #f5f6f7;
+        background-color: var(--bg-color-card);
+        border-radius: 0.3rem 0.3rem 0rem 0rem;
+    }
+
+    .project__data {
+        border-radius: 0rem 0rem 0.3rem 0.3rem;
     }
 }
 

@@ -60,12 +60,12 @@
 
 .home__work {
     color: var(--primary-color);
-    letter-spacing: 0.07rem;
+    letter-spacing: 0.05rem;
     word-spacing: -0.15rem;
     margin-bottom: 1.8rem;
     background-color: white;
     width: fit-content;
-    padding: 0.2rem 0.4rem;
+    padding: 0.1rem 0.4rem;
     border-radius: 0.1rem;
     text-align: center;
     opacity: 0.9;
@@ -155,7 +155,7 @@
         border-radius: 100rem;
     }
     #initialA {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
     .home__name {
         font-size: 2rem;
@@ -171,5 +171,6 @@
         font-weight: 400;
         font-size: var(--fs--base);
         margin-bottom: 2.5rem;
+        letter-spacing: 0px;
     }
 }
