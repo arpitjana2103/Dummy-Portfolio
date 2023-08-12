@@ -7,8 +7,10 @@
     background-color: white;
     color: var(--primary-color);
     font-weight: var(--semibold);
+    padding: 0.2rem 0.7rem;
+    padding-bottom: 0.3rem;
 }
 
 #resume_btn:hover {
-    background-color: rgba(31, 73, 88, 0.1);
+    background-color: rgba(31, 73, 88, 0.03);
 }

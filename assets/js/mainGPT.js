@@ -133,9 +133,3 @@ function updateProfileContent() {
         cad.innerText = 'Jewellery 3D-CAD Modeling - Full Time';
     }
 }
-
-// Initial call to set profile content when the page loads
-updateProfileContent();
-
-// Event listener for window resize
-window.addEventListener('resize', updateProfileContent);

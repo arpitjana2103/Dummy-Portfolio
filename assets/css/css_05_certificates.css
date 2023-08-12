@@ -29,6 +29,10 @@
 }
 .certificate_container .buttonSq {
     margin-top: 1rem;
+    /* background-color: white;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: bold; */
 }
 
 @media (max-width: 500px) {

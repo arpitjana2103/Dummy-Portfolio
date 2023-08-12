@@ -33,6 +33,7 @@
     --bold: 700;
     /*========Shadow==========*/
     --shadow: #0d24301e 0px 2px 8px 0px;
+    --btnShadow: rgba(31, 73, 88, 0.6) 0px 1px 4px;
 }
 
 /*======== Custom Scroll Bar ==========*/

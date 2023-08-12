@@ -1,4 +1,4 @@
-.project__categories {
+/* .project__categories {
     display: flex;
     gap: 3rem;
     margin-bottom: 1.875rem;
@@ -6,7 +6,7 @@
 }
 
 .category__btn {
-    color: var(--primary-color);
+    color: red;
     opacity: 0.75;
     font-weight: var(--bold);
     font-family: var(--mono-font);
@@ -36,7 +36,7 @@
 .active,
 .active::after {
     opacity: 1;
-}
+} */
 
 .projects__container {
     gap: 2.5rem;
