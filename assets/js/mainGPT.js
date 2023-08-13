@@ -8,7 +8,7 @@ function showMessage(message, iClass) {
     setTimeout(function () {
         contactMessage.classList.add('color-light');
         contactMessage.classList.remove('color-dark');
-    }, 5000);
+    }, 6000);
 }
 
 // Function to send email
