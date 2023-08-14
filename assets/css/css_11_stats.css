@@ -2,7 +2,6 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 0rem;
     padding-top: 1rem;
-    pointer-events: none;
 }
 .stats__container .stats__data {
     margin-top: 0;
@@ -28,17 +27,19 @@
     margin-top: 2rem;
 }
 
-.img03__container {
+.stats__item {
     overflow-x: scroll;
 }
 
 #img01 {
-    height: 172px;
-    width: 312px;
+    max-width: 495px;
+}
+
+#img02 {
+    max-width: 450px;
 }
 
 #img03 {
-    /* width: 100%; */
     max-width: 760px;
     border: 2px solid rgba(0, 0, 0, 0.07);
     border-radius: 0.4rem;
