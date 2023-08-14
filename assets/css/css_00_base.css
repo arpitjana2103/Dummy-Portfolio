@@ -40,17 +40,31 @@
 
 /* width */
 ::-webkit-scrollbar {
+    height: 7px;
     width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
     background: #27272715;
+    display: none;
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background: #fff;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--primary-color);
+    background: rgba(31, 73, 88);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: rgba(31, 73, 88, 0.1);
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background: rgba(31, 73, 88, 0.1);
 }
 
 /* Handle on hover */
@@ -67,7 +81,7 @@
 
 html {
     scroll-behavior: smooth;
-    scrollbar-color: var(--primary-color) #27272715;
+    scrollbar-color: var(--primary-color) #ff0505;
     scrollbar-width: thin;
 }
 
