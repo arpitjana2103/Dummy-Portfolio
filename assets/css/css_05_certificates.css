@@ -29,10 +29,12 @@
 }
 .certificate_container .buttonSq {
     margin-top: 1rem;
-    /* background-color: white;
-    border: 2px solid var(--primary-color);
+    background-color: white;
+    border: 2px solid rgba(31, 73, 88, 0.8);
     color: var(--primary-color);
-    font-weight: bold; */
+    font-weight: bold;
+    padding: 0.1rem 0.4rem 0.08rem 0.4rem;
+    opacity: 0.9;
 }
 
 @media (max-width: 500px) {
