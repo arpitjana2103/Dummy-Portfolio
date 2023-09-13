@@ -51,8 +51,8 @@ const contactForm = document.getElementById('contact-form');
 contactForm.addEventListener('submit', sendEmail);
 
 // Function to update header scroll class
+const header = document.querySelector('#header');
 function updateHeaderScroll() {
-    const header = document.querySelector('#header');
     const scrollY = window.scrollY;
     const innerWidth = window.innerWidth;
 

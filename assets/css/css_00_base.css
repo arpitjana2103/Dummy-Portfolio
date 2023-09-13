@@ -81,7 +81,7 @@
 
 html {
     scroll-behavior: smooth;
-    scrollbar-color: var(--primary-color) #ff0505;
+    scrollbar-color: var(--primary-color) white;
     scrollbar-width: thin;
 }
 
